@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link href='https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900|Material+Icons' rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/vuetify/dist/vuetify.min.css" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  
+</head>
+<body>
+  <div id="app">
+    <v-app>
+      <v-main>
+        <v-container>
+          
+          <div class="flex title text-center ">Daily Temps for The Previous 10 Days</div>
+          <v-layout>
+            <v-flex xs12>
+                <line-chart
+                v-if="isLoaded"
+                :chartdata="chartdata"
+                :chartoptions="chartoptions"
+                ></line-chart>
+            </v-flex>
+          </v-layout>
+          <div class="flex text-center font-italic">measured daily at midnight</div> 
+        </v-container>
+      </v-main>
+    </v-app>
+  </div>
+ 
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vuetify/dist/vuetify.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.1/Chart.min.js"></script>
+  <script src="https://unpkg.com/vue-chartjs/dist/vue-chartjs.min.js"></script>
+  
+<script>
+  
+  Vue.component('line-chart', {
+  extends: VueChartJs.Line,
+  props: {
+    chartdata: {
+      type: Object,
+      default: null
+    },
+    chartoptions: {
+      type: Object,
+      default: null
+    }
+
+  },
+  mounted () {
+    this.renderChart(
+      this.chartdata, 
+      this.chartoptions
+    )
+  }
+})
+
+
+
+new Vue({ 
+  el: '#app', 
+vuetify: new Vuetify(),
+  data () {
+    return {
+      whitehorse: Array,
+      loaded: 0,
+      skagway: Array,
+      toadriver: Array,
+      icebuilds: -7     
+    }
+  },
+  methods: {
+    extractTemp: function (weatherObject){
+        try{
+        return weatherObject.main.temp
+        } catch(error){
+        //console.log(weatherObject)
+        } 
+    },
+    extractDT: function (weatherObject){
+        if (weatherObject.dt){
+            d = new Date(weatherObject.dt*1000).toString().split(' ')[1] +' ' + new Date(weatherObject.dt*1000).toString().split(' ')[2]
+        }else{
+            d= 'N/A' 
+        }
+        return d
+    },
+    location: function (weatherObject){
+        if (weatherObject.name){
+        return weatherObject.name
+        }else{
+        retun = 'N/A' 
+        }
+    },
+    createChartData(wL, color='red', label='') {
+      var data = {
+          label: label, 
+          fill: false,
+          borderColor: color,
+          backgroundColor: color,
+          
+      }
+     data.data = wL.map(element => this.extractTemp(element))
+      if (!label){
+        data.label = this.location(wL[0])
+      }
+      return data
+    },
+},
+  computed: { 
+    isLoaded () {
+      if (this.loaded == 3){
+        return true 
+      }
+      else 
+        return false
+    },
+    weatherList () {
+      return this.whitehorse
+    },
+    tempuratureList () {
+      return this.weatherList.map(element => this.extractTemp(element))
+    },
+    dateList () {
+      return this.weatherList.map(element => this.extractDT(element))
+    },
+    
+    chartdata () {  
+      data = {
+        labels: this.dateList,
+        datasets: [
+          this.createChartData(this.whitehorse, '#3373BA'), 
+          this.createChartData(this.toadriver, '#b7ba33', 'Toad River'),
+          this.createChartData(this.skagway, '#ba3633', 'Skagway' ),
+          // Create the data for when ice builds. 
+          {
+            label: 'Ice Builds',
+            fill: 'start',
+            borderColor: 'rgba(101,154,213, 0.5)',
+            backgroundColor: 'rgba(101,154,213, 0.3)',
+            // Create a line for where ice builds 
+            // One data point for each datapoint in termperature list
+            data: this.tempuratureList.map(x => this.icebuilds)
+            // Generate random data 
+            // data: this.tempuratureList.map(x => x-Math.floor((Math.random() * 10) + 1))
+          }
+        ]
+      }
+      return data
+      },
+
+    chartoptions () {
+      options = {
+        responsive: true, 
+        maintainAspectRatio: false,
+        spanGaps: true,
+        scales: {
+          yAxes: [{
+              ticks: {
+                  suggestedMin: -25
+              }
+          }]
+        }
+      }
+      return options 
+    }
+  }, 
+  watch: {
+     whitehorse(){
+          this.loaded += 1
+      },
+      toadriver(){
+          this.loaded += 1
+      },
+      skagway(){
+          this.loaded += 1
+      }
+  },    
+  created: function () {
+
+  },
+  mounted: function () {
+  
+    const requestWhitehorse = async () => {
+      const response = await fetch("./whitehorseWeather.json")
+      const json = await response.json()
+      this.whitehorse = json
+    }
+    requestWhitehorse()
+
+     const requestToad = async () => {
+      const response = await fetch("./toadWeather.json")
+      const json = await response.json()
+      this.toadriver = json
+      
+    }
+    requestToad()
+
+    const requestSkagway = async () => {
+      const response = await fetch("./skagwayWeather.json")
+      const json = await response.json()
+      this.skagway = json
+      
+    }
+    requestSkagway()
+   
+  }
+
+})
+
+</script>
+</body>
+</html>

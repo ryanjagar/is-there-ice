@@ -1,0 +1,43 @@
+name: yxy
+
+on:
+  push:
+    paths:
+      - .github/workflows/yxy.yaml # Only run a new workflow every time this file (yxy.yaml) file changes
+  workflow_dispatch: # Required even though this is currently empty
+  schedule:
+    - cron: '45 6 * * *' # Run this workflow at 23:24 (Yukon Time) everyday
+
+jobs:
+  scheduled:
+    runs-on: ubuntu-latest
+    steps: # This workflow has 3 steps
+      # The first step is to check out the repository so it can read the files inside of it and do other operations
+      - name: Check out repo
+        uses: actions/checkout@v2
+      # This step installs Deno, which is a new Javascript runtime that improves on Node. We'll use it for postprocessing later
+      - name: Setup deno
+        uses: denoland/setup-deno@main
+        with:
+          deno-version: v1.x
+      # The third step is a Flat Action step. We fetch the data in the http_url and save it as downloaded_filename
+      - name: Fetch Whitehorse 
+        uses: githubocto/flat@v3
+        with:
+          http_url: http://api.openweathermap.org/data/2.5/weather?lat=60.68359&lon=-135.115934&appid=${{ secrets.APIKEY }}&units=metric # Whitehorse Data
+          downloaded_filename: ./raw-data/raw-whitehorseWeather.json # The http_url gets saved and renamed in our repository as autoWeather.json
+          postprocess: postprocess.js
+      - name: Fetch Toad River
+        uses: githubocto/flat@v3
+        with:
+          http_url: http://api.openweathermap.org/data/2.5/weather?lat=58.8478&lon=-125.2317&appid=${{ secrets.APIKEY }}&units=metric # Toad River data
+          downloaded_filename: ./raw-data/raw-toadWeather.json # The http_url gets saved and renamed in our repository as autoWeather.json
+          postprocess: postprocess.js
+          # postprocess: ./processing/postprocess.js
+      - name: Fetch Skagway 
+        uses: githubocto/flat@v3
+        with:
+          http_url: http://api.openweathermap.org/data/2.5/weather?lat=59.4554&lon=-135.3153&appid=${{ secrets.APIKEY }}&units=metric # Skagway data
+          downloaded_filename: ./raw-data/raw-skagwayWeather.json # The http_url gets saved and renamed in our repository as autoWeather.json
+          postprocess: postprocess.js
+          # postprocess: ./processing/postprocess.js
