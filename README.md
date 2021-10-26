@@ -1,5 +1,5 @@
 # Is there ice?
-For pretty obvious reasons weather reports and forcasts tell you what the weather currently is or what it will soon be.  However, ice climbers often want to know if  weather conditions have been good for building ice.  Basically, they want to know what was the weather like for the last few days.  This is an app to answer the question *"Have the last ten days been good for building ice for climbing?"*
+For pretty obvious reasons weather reports and forcasts tell you what the weather currently is or what it will soon be.  However, ice climbers often want to know if  weather conditions have been good for building ice.  Basically, they want to know what was the weather like for the last few days.  This is an app to answer the question [*"Have the last ten days been good for building ice for climbing?"*](https://ryanjagar.github.io/is-there-ice/isThereIce.html)
 
 ## Want to add a location?
 Are you an ice climber?  Would you like to see the last few days of weather for your favourite climbing spot?  If so, log an issue with the name and a location and I'll see about adding it to the list. 
