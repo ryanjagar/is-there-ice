@@ -6,50 +6,6 @@
     },
     "weather": [
       {
-        "id": 804,
-        "main": "Clouds",
-        "description": "overcast clouds",
-        "icon": "04n"
-      }
-    ],
-    "base": "stations",
-    "main": {
-      "temp": -10.87,
-      "feels_like": -10.87,
-      "temp_min": -10.87,
-      "temp_max": -10.87,
-      "pressure": 1025,
-      "humidity": 97,
-      "sea_level": 1025,
-      "grnd_level": 935
-    },
-    "visibility": 10000,
-    "wind": {
-      "speed": 0.98,
-      "deg": 238,
-      "gust": 0.86
-    },
-    "clouds": {
-      "all": 100
-    },
-    "dt": 1646290415,
-    "sys": {
-      "country": "CA",
-      "sunrise": 1646234047,
-      "sunset": 1646272338
-    },
-    "timezone": -25200,
-    "id": 6064168,
-    "name": "Magnum Mine",
-    "cod": 200
-  },
-  {
-    "coord": {
-      "lon": -125.2317,
-      "lat": 58.8478
-    },
-    "weather": [
-      {
         "id": 802,
         "main": "Clouds",
         "description": "scattered clouds",
@@ -442,6 +398,53 @@
       "country": "CA",
       "sunrise": 1647010104,
       "sunset": 1647051215
+    },
+    "timezone": -25200,
+    "id": 6064168,
+    "name": "Magnum Mine",
+    "cod": 200
+  },
+  {
+    "coord": {
+      "lon": -125.2317,
+      "lat": 58.8478
+    },
+    "weather": [
+      {
+        "id": 600,
+        "main": "Snow",
+        "description": "light snow",
+        "icon": "13n"
+      }
+    ],
+    "base": "stations",
+    "main": {
+      "temp": -18.75,
+      "feels_like": -25.25,
+      "temp_min": -18.75,
+      "temp_max": -18.75,
+      "pressure": 1022,
+      "humidity": 99,
+      "sea_level": 1022,
+      "grnd_level": 930
+    },
+    "visibility": 172,
+    "wind": {
+      "speed": 2.51,
+      "deg": 54,
+      "gust": 2.83
+    },
+    "snow": {
+      "1h": 0.23
+    },
+    "clouds": {
+      "all": 100
+    },
+    "dt": 1647154468,
+    "sys": {
+      "country": "CA",
+      "sunrise": 1647096330,
+      "sunset": 1647137755
     },
     "timezone": -25200,
     "id": 6064168,
