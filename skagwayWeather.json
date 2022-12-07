@@ -6,64 +6,6 @@
     },
     "weather": [
       {
-        "id": 600,
-        "main": "Snow",
-        "description": "light snow",
-        "icon": "13n"
-      },
-      {
-        "id": 701,
-        "main": "Mist",
-        "description": "mist",
-        "icon": "50n"
-      },
-      {
-        "id": 500,
-        "main": "Rain",
-        "description": "light rain",
-        "icon": "10n"
-      }
-    ],
-    "base": "stations",
-    "main": {
-      "temp": 0.97,
-      "feels_like": 0.97,
-      "temp_min": 0.97,
-      "temp_max": 3.01,
-      "pressure": 998,
-      "humidity": 93
-    },
-    "visibility": 2012,
-    "wind": {
-      "speed": 0,
-      "deg": 0
-    },
-    "rain": {
-      "1h": 0.76
-    },
-    "clouds": {
-      "all": 100
-    },
-    "dt": 1669445343,
-    "sys": {
-      "type": 1,
-      "id": 7704,
-      "country": "US",
-      "sunrise": 1669396792,
-      "sunset": 1669421829
-    },
-    "timezone": -32400,
-    "id": 5846893,
-    "name": "Haines",
-    "cod": 200
-  },
-  {
-    "coord": {
-      "lon": -135.3153,
-      "lat": 59.4554
-    },
-    "weather": [
-      {
         "id": 804,
         "main": "Clouds",
         "description": "overcast clouds",
@@ -450,6 +392,49 @@
       "country": "US",
       "sunrise": 1670261985,
       "sunset": 1670285072
+    },
+    "timezone": -32400,
+    "id": 5846893,
+    "name": "Haines",
+    "cod": 200
+  },
+  {
+    "coord": {
+      "lon": -135.3153,
+      "lat": 59.4554
+    },
+    "weather": [
+      {
+        "id": 701,
+        "main": "Mist",
+        "description": "mist",
+        "icon": "50n"
+      }
+    ],
+    "base": "stations",
+    "main": {
+      "temp": 2.97,
+      "feels_like": -1.97,
+      "temp_min": -0.99,
+      "temp_max": 2.97,
+      "pressure": 1002,
+      "humidity": 87
+    },
+    "visibility": 9656,
+    "wind": {
+      "speed": 6.69,
+      "deg": 210
+    },
+    "clouds": {
+      "all": 100
+    },
+    "dt": 1670395752,
+    "sys": {
+      "type": 1,
+      "id": 7704,
+      "country": "US",
+      "sunrise": 1670348487,
+      "sunset": 1670371419
     },
     "timezone": -32400,
     "id": 5846893,
