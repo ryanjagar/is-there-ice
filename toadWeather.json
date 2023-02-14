@@ -14,50 +14,6 @@
     ],
     "base": "stations",
     "main": {
-      "temp": -11.98,
-      "feels_like": -16.43,
-      "temp_min": -11.98,
-      "temp_max": -11.98,
-      "pressure": 1007,
-      "humidity": 94,
-      "sea_level": 1007,
-      "grnd_level": 919
-    },
-    "visibility": 10000,
-    "wind": {
-      "speed": 2.01,
-      "deg": 224,
-      "gust": 1.55
-    },
-    "clouds": {
-      "all": 88
-    },
-    "dt": 1675493352,
-    "sys": {
-      "country": "CA",
-      "sunrise": 1675441472,
-      "sunset": 1675471494
-    },
-    "timezone": -25200,
-    "id": 6064168,
-    "name": "Magnum Mine",
-    "cod": 200
-  },
-  {
-    "coord": {
-      "lon": -125.2317,
-      "lat": 58.8478
-    },
-    "weather": [
-      {
-        "id": 804,
-        "main": "Clouds",
-        "description": "overcast clouds",
-        "icon": "04n"
-      }
-    ],
-    "base": "stations",
-    "main": {
       "temp": -5.76,
       "feels_like": -5.76,
       "temp_min": -5.76,
@@ -436,6 +392,53 @@
       "country": "CA",
       "sunrise": 1676217782,
       "sunset": 1676250448
+    },
+    "timezone": -25200,
+    "id": 6064168,
+    "name": "Magnum Mine",
+    "cod": 200
+  },
+  {
+    "coord": {
+      "lon": -125.2317,
+      "lat": 58.8478
+    },
+    "weather": [
+      {
+        "id": 600,
+        "main": "Snow",
+        "description": "light snow",
+        "icon": "13n"
+      }
+    ],
+    "base": "stations",
+    "main": {
+      "temp": -14.42,
+      "feels_like": -14.42,
+      "temp_min": -14.42,
+      "temp_max": -14.42,
+      "pressure": 1019,
+      "humidity": 99,
+      "sea_level": 1019,
+      "grnd_level": 929
+    },
+    "visibility": 205,
+    "wind": {
+      "speed": 0.73,
+      "deg": 84,
+      "gust": 0.75
+    },
+    "snow": {
+      "1h": 0.16
+    },
+    "clouds": {
+      "all": 100
+    },
+    "dt": 1676357344,
+    "sys": {
+      "country": "CA",
+      "sunrise": 1676304031,
+      "sunset": 1676336998
     },
     "timezone": -25200,
     "id": 6064168,
