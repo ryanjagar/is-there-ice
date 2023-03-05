@@ -14,50 +14,6 @@
     ],
     "base": "stations",
     "main": {
-      "temp": -30.32,
-      "feels_like": -37.12,
-      "temp_min": -30.32,
-      "temp_max": -30.32,
-      "pressure": 1053,
-      "humidity": 99,
-      "sea_level": 1053,
-      "grnd_level": 954
-    },
-    "visibility": 3779,
-    "wind": {
-      "speed": 1.76,
-      "deg": 213,
-      "gust": 1.45
-    },
-    "clouds": {
-      "all": 99
-    },
-    "dt": 1677134947,
-    "sys": {
-      "country": "CA",
-      "sunrise": 1677080215,
-      "sunset": 1677115937
-    },
-    "timezone": -25200,
-    "id": 6064168,
-    "name": "Magnum Mine",
-    "cod": 200
-  },
-  {
-    "coord": {
-      "lon": -125.2317,
-      "lat": 58.8478
-    },
-    "weather": [
-      {
-        "id": 804,
-        "main": "Clouds",
-        "description": "overcast clouds",
-        "icon": "04n"
-      }
-    ],
-    "base": "stations",
-    "main": {
       "temp": -20.3,
       "feels_like": -27.3,
       "temp_min": -20.3,
@@ -433,6 +389,50 @@
       "country": "CA",
       "sunrise": 1677856321,
       "sunset": 1677894844
+    },
+    "timezone": -25200,
+    "id": 6064168,
+    "name": "Magnum Mine",
+    "cod": 200
+  },
+  {
+    "coord": {
+      "lon": -125.2317,
+      "lat": 58.8478
+    },
+    "weather": [
+      {
+        "id": 804,
+        "main": "Clouds",
+        "description": "overcast clouds",
+        "icon": "04n"
+      }
+    ],
+    "base": "stations",
+    "main": {
+      "temp": -25.58,
+      "feels_like": -31.71,
+      "temp_min": -25.58,
+      "temp_max": -25.58,
+      "pressure": 1040,
+      "humidity": 99,
+      "sea_level": 1040,
+      "grnd_level": 944
+    },
+    "visibility": 4438,
+    "wind": {
+      "speed": 1.78,
+      "deg": 201,
+      "gust": 1.52
+    },
+    "clouds": {
+      "all": 100
+    },
+    "dt": 1677998943,
+    "sys": {
+      "country": "CA",
+      "sunrise": 1677942551,
+      "sunset": 1677981387
     },
     "timezone": -25200,
     "id": 6064168,
