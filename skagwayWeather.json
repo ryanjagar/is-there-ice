@@ -6,52 +6,6 @@
     },
     "weather": [
       {
-        "id": 801,
-        "main": "Clouds",
-        "description": "few clouds",
-        "icon": "02n"
-      }
-    ],
-    "base": "stations",
-    "main": {
-      "temp": 12.01,
-      "feels_like": 11.15,
-      "temp_min": 12.01,
-      "temp_max": 12.01,
-      "pressure": 1016,
-      "humidity": 72,
-      "sea_level": 1016,
-      "grnd_level": 1015
-    },
-    "visibility": 10000,
-    "wind": {
-      "speed": 0.97,
-      "deg": 44,
-      "gust": 1.24
-    },
-    "clouds": {
-      "all": 20
-    },
-    "dt": 1692686944,
-    "sys": {
-      "type": 1,
-      "id": 7707,
-      "country": "US",
-      "sunrise": 1692624734,
-      "sunset": 1692679019
-    },
-    "timezone": -28800,
-    "id": 5846893,
-    "name": "Haines",
-    "cod": 200
-  },
-  {
-    "coord": {
-      "lon": -135.3153,
-      "lat": 59.4554
-    },
-    "weather": [
-      {
         "id": 803,
         "main": "Clouds",
         "description": "broken clouds",
@@ -459,6 +413,53 @@
       "country": "US",
       "sunrise": 1693403588,
       "sunset": 1693455069
+    },
+    "timezone": -28800,
+    "id": 5846893,
+    "name": "Haines",
+    "cod": 200
+  },
+  {
+    "coord": {
+      "lon": -135.3153,
+      "lat": 59.4554
+    },
+    "weather": [
+      {
+        "id": 500,
+        "main": "Rain",
+        "description": "light rain",
+        "icon": "10n"
+      }
+    ],
+    "base": "stations",
+    "main": {
+      "temp": 13.63,
+      "feels_like": 13.63,
+      "temp_min": 13.63,
+      "temp_max": 13.63,
+      "pressure": 1011,
+      "humidity": 99,
+      "sea_level": 1011,
+      "grnd_level": 1011
+    },
+    "visibility": 77,
+    "wind": {
+      "speed": 6,
+      "deg": 196,
+      "gust": 10.75
+    },
+    "rain": {
+      "1h": 0.48
+    },
+    "clouds": {
+      "all": 100
+    },
+    "dt": 1693550754,
+    "sys": {
+      "country": "US",
+      "sunrise": 1693490126,
+      "sunset": 1693541293
     },
     "timezone": -28800,
     "id": 5846893,
