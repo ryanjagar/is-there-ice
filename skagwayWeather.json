@@ -14,49 +14,6 @@
     ],
     "base": "stations",
     "main": {
-      "temp": 4.97,
-      "feels_like": 4.97,
-      "temp_min": 1.01,
-      "temp_max": 4.97,
-      "pressure": 1034,
-      "humidity": 52
-    },
-    "visibility": 10000,
-    "wind": {
-      "speed": 0,
-      "deg": 0
-    },
-    "clouds": {
-      "all": 0
-    },
-    "dt": 1698302823,
-    "sys": {
-      "type": 1,
-      "id": 7704,
-      "country": "US",
-      "sunrise": 1698249805,
-      "sunset": 1698283619
-    },
-    "timezone": -28800,
-    "id": 5846893,
-    "name": "Haines",
-    "cod": 200
-  },
-  {
-    "coord": {
-      "lon": -135.3153,
-      "lat": 59.4554
-    },
-    "weather": [
-      {
-        "id": 800,
-        "main": "Clear",
-        "description": "clear sky",
-        "icon": "01n"
-      }
-    ],
-    "base": "stations",
-    "main": {
       "temp": -2.03,
       "feels_like": -4.14,
       "temp_min": -2.03,
@@ -432,6 +389,49 @@
       "country": "US",
       "sunrise": 1699028754,
       "sunset": 1699059819
+    },
+    "timezone": -28800,
+    "id": 5846893,
+    "name": "Haines",
+    "cod": 200
+  },
+  {
+    "coord": {
+      "lon": -135.3153,
+      "lat": 59.4554
+    },
+    "weather": [
+      {
+        "id": 803,
+        "main": "Clouds",
+        "description": "broken clouds",
+        "icon": "04n"
+      }
+    ],
+    "base": "stations",
+    "main": {
+      "temp": 8.97,
+      "feels_like": 6.05,
+      "temp_min": 8.01,
+      "temp_max": 8.97,
+      "pressure": 991,
+      "humidity": 57
+    },
+    "visibility": 10000,
+    "wind": {
+      "speed": 5.66,
+      "deg": 30
+    },
+    "clouds": {
+      "all": 75
+    },
+    "dt": 1699166937,
+    "sys": {
+      "type": 1,
+      "id": 7704,
+      "country": "US",
+      "sunrise": 1699115305,
+      "sunset": 1699146071
     },
     "timezone": -28800,
     "id": 5846893,
