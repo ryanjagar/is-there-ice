@@ -6,59 +6,6 @@
     },
     "weather": [
       {
-        "id": 612,
-        "main": "Snow",
-        "description": "light shower sleet",
-        "icon": "13n"
-      },
-      {
-        "id": 500,
-        "main": "Rain",
-        "description": "light rain",
-        "icon": "10n"
-      }
-    ],
-    "base": "stations",
-    "main": {
-      "temp": 2.53,
-      "feels_like": -2.74,
-      "temp_min": 2.53,
-      "temp_max": 2.53,
-      "pressure": 974,
-      "humidity": 81
-    },
-    "visibility": 10000,
-    "wind": {
-      "speed": 7.2,
-      "deg": 150,
-      "gust": 11.83
-    },
-    "rain": {
-      "1h": 0.26
-    },
-    "clouds": {
-      "all": 100
-    },
-    "dt": 1702450136,
-    "sys": {
-      "type": 1,
-      "id": 983,
-      "country": "CA",
-      "sunrise": 1702404042,
-      "sunset": 1702424870
-    },
-    "timezone": -25200,
-    "id": 6180550,
-    "name": "Whitehorse",
-    "cod": 200
-  },
-  {
-    "coord": {
-      "lon": -135.1159,
-      "lat": 60.6836
-    },
-    "weather": [
-      {
         "id": 801,
         "main": "Clouds",
         "description": "few clouds",
@@ -438,6 +385,49 @@
       "country": "CA",
       "sunrise": 1703182161,
       "sunset": 1703202459
+    },
+    "timezone": -25200,
+    "id": 6180550,
+    "name": "Whitehorse",
+    "cod": 200
+  },
+  {
+    "coord": {
+      "lon": -135.1159,
+      "lat": 60.6836
+    },
+    "weather": [
+      {
+        "id": 800,
+        "main": "Clear",
+        "description": "clear sky",
+        "icon": "01n"
+      }
+    ],
+    "base": "stations",
+    "main": {
+      "temp": -13.76,
+      "feels_like": -20.76,
+      "temp_min": -19.73,
+      "temp_max": -13.47,
+      "pressure": 1003,
+      "humidity": 85
+    },
+    "visibility": 10000,
+    "wind": {
+      "speed": 5.66,
+      "deg": 130
+    },
+    "clouds": {
+      "all": 0
+    },
+    "dt": 1703314140,
+    "sys": {
+      "type": 1,
+      "id": 983,
+      "country": "CA",
+      "sunrise": 1703268591,
+      "sunset": 1703288887
     },
     "timezone": -25200,
     "id": 6180550,
