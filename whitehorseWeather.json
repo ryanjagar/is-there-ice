@@ -6,49 +6,6 @@
     },
     "weather": [
       {
-        "id": 801,
-        "main": "Clouds",
-        "description": "few clouds",
-        "icon": "02n"
-      }
-    ],
-    "base": "stations",
-    "main": {
-      "temp": 8.99,
-      "feels_like": 7.24,
-      "temp_min": 4.71,
-      "temp_max": 9.53,
-      "pressure": 1020,
-      "humidity": 41
-    },
-    "visibility": 10000,
-    "wind": {
-      "speed": 3.09,
-      "deg": 120
-    },
-    "clouds": {
-      "all": 20
-    },
-    "dt": 1717742935,
-    "sys": {
-      "type": 1,
-      "id": 983,
-      "country": "CA",
-      "sunrise": 1717673701,
-      "sunset": 1717741429
-    },
-    "timezone": -25200,
-    "id": 6180550,
-    "name": "Whitehorse",
-    "cod": 200
-  },
-  {
-    "coord": {
-      "lon": -135.1159,
-      "lat": 60.6836
-    },
-    "weather": [
-      {
         "id": 800,
         "main": "Clear",
         "description": "clear sky",
@@ -430,6 +387,49 @@
       "country": "CA",
       "sunrise": 1718450902,
       "sunset": 1718519635
+    },
+    "timezone": -25200,
+    "id": 6180550,
+    "name": "Whitehorse",
+    "cod": 200
+  },
+  {
+    "coord": {
+      "lon": -135.1159,
+      "lat": 60.6836
+    },
+    "weather": [
+      {
+        "id": 803,
+        "main": "Clouds",
+        "description": "broken clouds",
+        "icon": "04n"
+      }
+    ],
+    "base": "stations",
+    "main": {
+      "temp": 16.74,
+      "feels_like": 15.44,
+      "temp_min": 10.27,
+      "temp_max": 17.53,
+      "pressure": 1013,
+      "humidity": 37
+    },
+    "visibility": 10000,
+    "wind": {
+      "speed": 3.6,
+      "deg": 270
+    },
+    "clouds": {
+      "all": 75
+    },
+    "dt": 1718606950,
+    "sys": {
+      "type": 1,
+      "id": 983,
+      "country": "CA",
+      "sunrise": 1718537285,
+      "sunset": 1718606076
     },
     "timezone": -25200,
     "id": 6180550,
