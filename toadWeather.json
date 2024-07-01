@@ -6,53 +6,6 @@
     },
     "weather": [
       {
-        "id": 500,
-        "main": "Rain",
-        "description": "light rain",
-        "icon": "10n"
-      }
-    ],
-    "base": "stations",
-    "main": {
-      "temp": 13.72,
-      "feels_like": 13.37,
-      "temp_min": 13.72,
-      "temp_max": 13.72,
-      "pressure": 1014,
-      "humidity": 85,
-      "sea_level": 1014,
-      "grnd_level": 933
-    },
-    "visibility": 10000,
-    "wind": {
-      "speed": 1.22,
-      "deg": 2,
-      "gust": 1.29
-    },
-    "rain": {
-      "1h": 0.39
-    },
-    "clouds": {
-      "all": 60
-    },
-    "dt": 1718952542,
-    "sys": {
-      "country": "CA",
-      "sunrise": 1718881742,
-      "sunset": 1718948172
-    },
-    "timezone": -25200,
-    "id": 6064168,
-    "name": "Magnum Mine",
-    "cod": 200
-  },
-  {
-    "coord": {
-      "lon": -125.2317,
-      "lat": 58.8478
-    },
-    "weather": [
-      {
         "id": 804,
         "main": "Clouds",
         "description": "overcast clouds",
@@ -442,6 +395,53 @@
       "country": "CA",
       "sunrise": 1719659628,
       "sunset": 1719725698
+    },
+    "timezone": -25200,
+    "id": 6064168,
+    "name": "Magnum Mine",
+    "cod": 200
+  },
+  {
+    "coord": {
+      "lon": -125.2317,
+      "lat": 58.8478
+    },
+    "weather": [
+      {
+        "id": 500,
+        "main": "Rain",
+        "description": "light rain",
+        "icon": "10n"
+      }
+    ],
+    "base": "stations",
+    "main": {
+      "temp": 15.5,
+      "feels_like": 15.19,
+      "temp_min": 15.5,
+      "temp_max": 15.5,
+      "pressure": 1008,
+      "humidity": 80,
+      "sea_level": 1008,
+      "grnd_level": 928
+    },
+    "visibility": 10000,
+    "wind": {
+      "speed": 2.07,
+      "deg": 234,
+      "gust": 2.04
+    },
+    "rain": {
+      "1h": 0.87
+    },
+    "clouds": {
+      "all": 100
+    },
+    "dt": 1719816540,
+    "sys": {
+      "country": "CA",
+      "sunrise": 1719746083,
+      "sunset": 1719812066
     },
     "timezone": -25200,
     "id": 6064168,
