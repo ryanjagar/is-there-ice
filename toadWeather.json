@@ -6,53 +6,6 @@
     },
     "weather": [
       {
-        "id": 501,
-        "main": "Rain",
-        "description": "moderate rain",
-        "icon": "10n"
-      }
-    ],
-    "base": "stations",
-    "main": {
-      "temp": 13.27,
-      "feels_like": 13.03,
-      "temp_min": 13.27,
-      "temp_max": 13.27,
-      "pressure": 1015,
-      "humidity": 91,
-      "sea_level": 1015,
-      "grnd_level": 934
-    },
-    "visibility": 6268,
-    "wind": {
-      "speed": 1.76,
-      "deg": 264,
-      "gust": 1.97
-    },
-    "rain": {
-      "1h": 2.23
-    },
-    "clouds": {
-      "all": 100
-    },
-    "dt": 1720853338,
-    "sys": {
-      "country": "CA",
-      "sunrise": 1720783841,
-      "sunset": 1720848129
-    },
-    "timezone": -25200,
-    "id": 6064168,
-    "name": "Magnum Mine",
-    "cod": 200
-  },
-  {
-    "coord": {
-      "lon": -125.2317,
-      "lat": 58.8478
-    },
-    "weather": [
-      {
         "id": 802,
         "main": "Clouds",
         "description": "scattered clouds",
@@ -439,6 +392,53 @@
       "country": "CA",
       "sunrise": 1721562438,
       "sunset": 1721624824
+    },
+    "timezone": -25200,
+    "id": 6064168,
+    "name": "Magnum Mine",
+    "cod": 200
+  },
+  {
+    "coord": {
+      "lon": -125.2317,
+      "lat": 58.8478
+    },
+    "weather": [
+      {
+        "id": 500,
+        "main": "Rain",
+        "description": "light rain",
+        "icon": "10n"
+      }
+    ],
+    "base": "stations",
+    "main": {
+      "temp": 17.63,
+      "feels_like": 17.96,
+      "temp_min": 17.63,
+      "temp_max": 17.63,
+      "pressure": 1009,
+      "humidity": 96,
+      "sea_level": 1009,
+      "grnd_level": 929
+    },
+    "visibility": 10000,
+    "wind": {
+      "speed": 1.78,
+      "deg": 61,
+      "gust": 1.72
+    },
+    "rain": {
+      "1h": 0.14
+    },
+    "clouds": {
+      "all": 100
+    },
+    "dt": 1721717335,
+    "sys": {
+      "country": "CA",
+      "sunrise": 1721648959,
+      "sunset": 1721711109
     },
     "timezone": -25200,
     "id": 6064168,
