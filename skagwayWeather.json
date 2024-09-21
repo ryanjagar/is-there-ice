@@ -6,51 +6,6 @@
     },
     "weather": [
       {
-        "id": 800,
-        "main": "Clear",
-        "description": "clear sky",
-        "icon": "01n"
-      }
-    ],
-    "base": "stations",
-    "main": {
-      "temp": 8.97,
-      "feels_like": 7.94,
-      "temp_min": 8.97,
-      "temp_max": 9.01,
-      "pressure": 1013,
-      "humidity": 100,
-      "sea_level": 1013,
-      "grnd_level": 1012
-    },
-    "visibility": 10000,
-    "wind": {
-      "speed": 2.06,
-      "deg": 20
-    },
-    "clouds": {
-      "all": 0
-    },
-    "dt": 1726037353,
-    "sys": {
-      "type": 1,
-      "id": 7704,
-      "country": "US",
-      "sunrise": 1725977999,
-      "sunset": 1726025782
-    },
-    "timezone": -28800,
-    "id": 5846893,
-    "name": "Haines",
-    "cod": 200
-  },
-  {
-    "coord": {
-      "lon": -135.3153,
-      "lat": 59.4554
-    },
-    "weather": [
-      {
         "id": 804,
         "main": "Clouds",
         "description": "overcast clouds",
@@ -460,6 +415,54 @@
       "country": "US",
       "sunrise": 1726756824,
       "sunset": 1726801760
+    },
+    "timezone": -28800,
+    "id": 5846893,
+    "name": "Haines",
+    "cod": 200
+  },
+  {
+    "coord": {
+      "lon": -135.3153,
+      "lat": 59.4554
+    },
+    "weather": [
+      {
+        "id": 500,
+        "main": "Rain",
+        "description": "light rain",
+        "icon": "10n"
+      }
+    ],
+    "base": "stations",
+    "main": {
+      "temp": 8.97,
+      "feels_like": 8.97,
+      "temp_min": 8.97,
+      "temp_max": 9.01,
+      "pressure": 1004,
+      "humidity": 100,
+      "sea_level": 1004,
+      "grnd_level": 1003
+    },
+    "visibility": 10000,
+    "wind": {
+      "speed": 0,
+      "deg": 0
+    },
+    "rain": {
+      "1h": 0.25
+    },
+    "clouds": {
+      "all": 100
+    },
+    "dt": 1726901352,
+    "sys": {
+      "type": 1,
+      "id": 7704,
+      "country": "US",
+      "sunrise": 1726843360,
+      "sunset": 1726887980
     },
     "timezone": -28800,
     "id": 5846893,
