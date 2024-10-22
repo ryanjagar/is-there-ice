@@ -6,51 +6,6 @@
     },
     "weather": [
       {
-        "id": 803,
-        "main": "Clouds",
-        "description": "broken clouds",
-        "icon": "04n"
-      }
-    ],
-    "base": "stations",
-    "main": {
-      "temp": 2.32,
-      "feels_like": -3.73,
-      "temp_min": 1.77,
-      "temp_max": 2.53,
-      "pressure": 1012,
-      "humidity": 56,
-      "sea_level": 1012,
-      "grnd_level": 919
-    },
-    "visibility": 10000,
-    "wind": {
-      "speed": 9.26,
-      "deg": 160
-    },
-    "clouds": {
-      "all": 75
-    },
-    "dt": 1728715736,
-    "sys": {
-      "type": 1,
-      "id": 983,
-      "country": "CA",
-      "sunrise": 1728660766,
-      "sunset": 1728698457
-    },
-    "timezone": -25200,
-    "id": 6180550,
-    "name": "Whitehorse",
-    "cod": 200
-  },
-  {
-    "coord": {
-      "lon": -135.1159,
-      "lat": 60.6836
-    },
-    "weather": [
-      {
         "id": 802,
         "main": "Clouds",
         "description": "scattered clouds",
@@ -447,6 +402,52 @@
       "country": "CA",
       "sunrise": 1729439745,
       "sunset": 1729474452
+    },
+    "timezone": -25200,
+    "id": 6180550,
+    "name": "Whitehorse",
+    "cod": 200
+  },
+  {
+    "coord": {
+      "lon": -135.1159,
+      "lat": 60.6836
+    },
+    "weather": [
+      {
+        "id": 803,
+        "main": "Clouds",
+        "description": "broken clouds",
+        "icon": "04n"
+      }
+    ],
+    "base": "stations",
+    "main": {
+      "temp": -4.81,
+      "feels_like": -11.81,
+      "temp_min": -6.96,
+      "temp_max": -4.47,
+      "pressure": 1015,
+      "humidity": 80,
+      "sea_level": 1015,
+      "grnd_level": 920
+    },
+    "visibility": 10000,
+    "wind": {
+      "speed": 9.26,
+      "deg": 160,
+      "gust": 12.35
+    },
+    "clouds": {
+      "all": 75
+    },
+    "dt": 1729579806,
+    "sys": {
+      "type": 1,
+      "id": 983,
+      "country": "CA",
+      "sunrise": 1729526301,
+      "sunset": 1729560677
     },
     "timezone": -25200,
     "id": 6180550,
