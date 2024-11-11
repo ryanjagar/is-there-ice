@@ -6,52 +6,6 @@
     },
     "weather": [
       {
-        "id": 802,
-        "main": "Clouds",
-        "description": "scattered clouds",
-        "icon": "03n"
-      }
-    ],
-    "base": "stations",
-    "main": {
-      "temp": -2.47,
-      "feels_like": -9.42,
-      "temp_min": -2.95,
-      "temp_max": -2.47,
-      "pressure": 1010,
-      "humidity": 93,
-      "sea_level": 1010,
-      "grnd_level": 916
-    },
-    "visibility": 10000,
-    "wind": {
-      "speed": 7.72,
-      "deg": 180,
-      "gust": 10.29
-    },
-    "clouds": {
-      "all": 40
-    },
-    "dt": 1730443832,
-    "sys": {
-      "type": 1,
-      "id": 983,
-      "country": "CA",
-      "sunrise": 1730391883,
-      "sunset": 1730422995
-    },
-    "timezone": -25200,
-    "id": 6180550,
-    "name": "Whitehorse",
-    "cod": 200
-  },
-  {
-    "coord": {
-      "lon": -135.1159,
-      "lat": 60.6836
-    },
-    "weather": [
-      {
         "id": 804,
         "main": "Clouds",
         "description": "overcast clouds",
@@ -446,6 +400,51 @@
       "country": "CA",
       "sunrise": 1731170925,
       "sunset": 1731199203
+    },
+    "timezone": -25200,
+    "id": 6180550,
+    "name": "Whitehorse",
+    "cod": 200
+  },
+  {
+    "coord": {
+      "lon": -135.1159,
+      "lat": 60.6836
+    },
+    "weather": [
+      {
+        "id": 600,
+        "main": "Snow",
+        "description": "light snow",
+        "icon": "13n"
+      }
+    ],
+    "base": "stations",
+    "main": {
+      "temp": -2.47,
+      "feels_like": -6.03,
+      "temp_min": -3.62,
+      "temp_max": -2.47,
+      "pressure": 1000,
+      "humidity": 93,
+      "sea_level": 1000,
+      "grnd_level": 906
+    },
+    "visibility": 3219,
+    "wind": {
+      "speed": 2.57,
+      "deg": 190
+    },
+    "clouds": {
+      "all": 100
+    },
+    "dt": 1731307777,
+    "sys": {
+      "type": 1,
+      "id": 983,
+      "country": "CA",
+      "sunrise": 1731257485,
+      "sunset": 1731285457
     },
     "timezone": -25200,
     "id": 6180550,
