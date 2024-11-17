@@ -6,52 +6,6 @@
     },
     "weather": [
       {
-        "id": 804,
-        "main": "Clouds",
-        "description": "overcast clouds",
-        "icon": "04n"
-      }
-    ],
-    "base": "stations",
-    "main": {
-      "temp": -4.73,
-      "feels_like": -10.56,
-      "temp_min": -4.73,
-      "temp_max": -4.73,
-      "pressure": 1001,
-      "humidity": 89,
-      "sea_level": 1001,
-      "grnd_level": 907
-    },
-    "visibility": 10000,
-    "wind": {
-      "speed": 4.61,
-      "deg": 173,
-      "gust": 8.93
-    },
-    "clouds": {
-      "all": 99
-    },
-    "dt": 1730875773,
-    "sys": {
-      "type": 2,
-      "id": 2009635,
-      "country": "CA",
-      "sunrise": 1730824684,
-      "sunset": 1730854205
-    },
-    "timezone": -25200,
-    "id": 6180550,
-    "name": "Whitehorse",
-    "cod": 200
-  },
-  {
-    "coord": {
-      "lon": -135.1159,
-      "lat": 60.6836
-    },
-    "weather": [
-      {
         "id": 800,
         "main": "Clear",
         "description": "clear sky",
@@ -447,6 +401,54 @@
       "country": "CA",
       "sunrise": 1731690275,
       "sunset": 1731716761
+    },
+    "timezone": -25200,
+    "id": 6180550,
+    "name": "Whitehorse",
+    "cod": 200
+  },
+  {
+    "coord": {
+      "lon": -135.1159,
+      "lat": 60.6836
+    },
+    "weather": [
+      {
+        "id": 600,
+        "main": "Snow",
+        "description": "light snow",
+        "icon": "13n"
+      }
+    ],
+    "base": "stations",
+    "main": {
+      "temp": -5.6,
+      "feels_like": -10.82,
+      "temp_min": -5.85,
+      "temp_max": -5.47,
+      "pressure": 990,
+      "humidity": 86,
+      "sea_level": 990,
+      "grnd_level": 897
+    },
+    "visibility": 8047,
+    "wind": {
+      "speed": 3.6,
+      "deg": 350
+    },
+    "snow": {
+      "1h": 0.26
+    },
+    "clouds": {
+      "all": 100
+    },
+    "dt": 1731826198,
+    "sys": {
+      "type": 1,
+      "id": 983,
+      "country": "CA",
+      "sunrise": 1731776831,
+      "sunset": 1731803029
     },
     "timezone": -25200,
     "id": 6180550,
