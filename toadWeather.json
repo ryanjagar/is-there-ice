@@ -6,53 +6,6 @@
     },
     "weather": [
       {
-        "id": 600,
-        "main": "Snow",
-        "description": "light snow",
-        "icon": "13n"
-      }
-    ],
-    "base": "stations",
-    "main": {
-      "temp": -14.64,
-      "feels_like": -18.52,
-      "temp_min": -14.64,
-      "temp_max": -14.64,
-      "pressure": 1037,
-      "humidity": 98,
-      "sea_level": 1037,
-      "grnd_level": 945
-    },
-    "visibility": 215,
-    "wind": {
-      "speed": 1.53,
-      "deg": 51,
-      "gust": 2.11
-    },
-    "snow": {
-      "1h": 0.19
-    },
-    "clouds": {
-      "all": 100
-    },
-    "dt": 1732344632,
-    "sys": {
-      "country": "CA",
-      "sunrise": 1732292985,
-      "sunset": 1732319105
-    },
-    "timezone": -25200,
-    "id": 6064168,
-    "name": "Magnum Mine",
-    "cod": 200
-  },
-  {
-    "coord": {
-      "lon": -125.2317,
-      "lat": 58.8478
-    },
-    "weather": [
-      {
         "id": 801,
         "main": "Clouds",
         "description": "few clouds",
@@ -436,6 +389,53 @@
       "country": "CA",
       "sunrise": 1733071694,
       "sunset": 1733095955
+    },
+    "timezone": -25200,
+    "id": 6064168,
+    "name": "Magnum Mine",
+    "cod": 200
+  },
+  {
+    "coord": {
+      "lon": -125.2317,
+      "lat": 58.8478
+    },
+    "weather": [
+      {
+        "id": 600,
+        "main": "Snow",
+        "description": "light snow",
+        "icon": "13n"
+      }
+    ],
+    "base": "stations",
+    "main": {
+      "temp": -4.69,
+      "feels_like": -4.69,
+      "temp_min": -4.69,
+      "temp_max": -4.69,
+      "pressure": 1014,
+      "humidity": 98,
+      "sea_level": 1014,
+      "grnd_level": 928
+    },
+    "visibility": 837,
+    "wind": {
+      "speed": 0.85,
+      "deg": 18,
+      "gust": 1.1
+    },
+    "snow": {
+      "1h": 0.24
+    },
+    "clouds": {
+      "all": 100
+    },
+    "dt": 1733208690,
+    "sys": {
+      "country": "CA",
+      "sunrise": 1733158205,
+      "sunset": 1733182291
     },
     "timezone": -25200,
     "id": 6064168,
