@@ -6,52 +6,6 @@
     },
     "weather": [
       {
-        "id": 804,
-        "main": "Clouds",
-        "description": "overcast clouds",
-        "icon": "04n"
-      }
-    ],
-    "base": "stations",
-    "main": {
-      "temp": -17.47,
-      "feels_like": -24.47,
-      "temp_min": -17.47,
-      "temp_max": -15.85,
-      "pressure": 1021,
-      "humidity": 85,
-      "sea_level": 1021,
-      "grnd_level": 922
-    },
-    "visibility": 10000,
-    "wind": {
-      "speed": 10.29,
-      "deg": 170,
-      "gust": 13.89
-    },
-    "clouds": {
-      "all": 100
-    },
-    "dt": 1732517464,
-    "sys": {
-      "type": 1,
-      "id": 983,
-      "country": "CA",
-      "sunrise": 1732469230,
-      "sunset": 1732493276
-    },
-    "timezone": -25200,
-    "id": 6180550,
-    "name": "Whitehorse",
-    "cod": 200
-  },
-  {
-    "coord": {
-      "lon": -135.1159,
-      "lat": 60.6836
-    },
-    "weather": [
-      {
         "id": 600,
         "main": "Snow",
         "description": "light snow",
@@ -448,6 +402,52 @@
       "country": "CA",
       "sunrise": 1733248013,
       "sunset": 1733270076
+    },
+    "timezone": -25200,
+    "id": 6180550,
+    "name": "Whitehorse",
+    "cod": 200
+  },
+  {
+    "coord": {
+      "lon": -135.1159,
+      "lat": 60.6836
+    },
+    "weather": [
+      {
+        "id": 804,
+        "main": "Clouds",
+        "description": "overcast clouds",
+        "icon": "04n"
+      }
+    ],
+    "base": "stations",
+    "main": {
+      "temp": 1.53,
+      "feels_like": -4.23,
+      "temp_min": 0.94,
+      "temp_max": 1.53,
+      "pressure": 1006,
+      "humidity": 93,
+      "sea_level": 1006,
+      "grnd_level": 915
+    },
+    "visibility": 10000,
+    "wind": {
+      "speed": 7.72,
+      "deg": 180,
+      "gust": 11.32
+    },
+    "clouds": {
+      "all": 100
+    },
+    "dt": 1733381462,
+    "sys": {
+      "type": 1,
+      "id": 983,
+      "country": "CA",
+      "sunrise": 1733334528,
+      "sunset": 1733356408
     },
     "timezone": -25200,
     "id": 6180550,
