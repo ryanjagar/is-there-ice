@@ -6,52 +6,6 @@
     },
     "weather": [
       {
-        "id": 801,
-        "main": "Clouds",
-        "description": "few clouds",
-        "icon": "02n"
-      }
-    ],
-    "base": "stations",
-    "main": {
-      "temp": -6.47,
-      "feels_like": -13.47,
-      "temp_min": -6.47,
-      "temp_max": -6.47,
-      "pressure": 1008,
-      "humidity": 86,
-      "sea_level": 1008,
-      "grnd_level": 915
-    },
-    "visibility": 9656,
-    "wind": {
-      "speed": 14.92,
-      "deg": 180,
-      "gust": 18.01
-    },
-    "clouds": {
-      "all": 20
-    },
-    "dt": 1733295060,
-    "sys": {
-      "type": 1,
-      "id": 983,
-      "country": "CA",
-      "sunrise": 1733248013,
-      "sunset": 1733270076
-    },
-    "timezone": -25200,
-    "id": 6180550,
-    "name": "Whitehorse",
-    "cod": 200
-  },
-  {
-    "coord": {
-      "lon": -135.1159,
-      "lat": 60.6836
-    },
-    "weather": [
-      {
         "id": 804,
         "main": "Clouds",
         "description": "overcast clouds",
@@ -445,6 +399,51 @@
       "country": "CA",
       "sunrise": 1734026502,
       "sunset": 1734047251
+    },
+    "timezone": -25200,
+    "id": 6180550,
+    "name": "Whitehorse",
+    "cod": 200
+  },
+  {
+    "coord": {
+      "lon": -135.1159,
+      "lat": 60.6836
+    },
+    "weather": [
+      {
+        "id": 800,
+        "main": "Clear",
+        "description": "clear sky",
+        "icon": "01n"
+      }
+    ],
+    "base": "stations",
+    "main": {
+      "temp": -19.54,
+      "feels_like": -26.29,
+      "temp_min": -20.85,
+      "temp_max": -19.47,
+      "pressure": 1008,
+      "humidity": 84,
+      "sea_level": 1008,
+      "grnd_level": 910
+    },
+    "visibility": 10000,
+    "wind": {
+      "speed": 2.57,
+      "deg": 180
+    },
+    "clouds": {
+      "all": 0
+    },
+    "dt": 1734159007,
+    "sys": {
+      "type": 1,
+      "id": 983,
+      "country": "CA",
+      "sunrise": 1734112977,
+      "sunset": 1734133631
     },
     "timezone": -25200,
     "id": 6180550,
