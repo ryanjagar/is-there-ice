@@ -1,0 +1,58 @@
+/* Ensure the body takes the full height of the viewport */
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+
+  font-family: "Arial", sans-serif; /* Set the font-family to sans-serif */
+}
+/* Main content should take all available space */
+#app {
+  flex-grow: 1;
+}
+/* Chart container styling */
+.chart-container {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  flex-grow: 1;
+  width: 100%; /* Full width by default */
+}
+
+/* Media query for laptops and larger screens */
+@media (min-width: 1024px) {
+  .chart-container {
+    width: 85%; /* 85% width on larger screens */
+    margin: 0 auto; /* Center horizontally */
+  }
+}
+
+header {
+  /* background-color: #f1f1f1; */
+  padding: 20px; /* Padding */
+  height: 100px; /* Increase the height of the header */
+  text-align: center; /* Center the text */
+  font-size: 24px; /* Font size */
+  font-weight: bold; /* Font weight */
+  display: flex;
+  align-items: center; /* Center vertically */
+  justify-content: center; /* Center horizontally */
+}
+
+.chart-description {
+  text-align: center;
+  font-size: 16px;
+  /* margin: 20px 0; */
+  margin: 20px auto; /* Center horizontally */
+  color: #666; /* Lighter grey */
+  font-style: italic;
+}
+
+/* Footer styling */
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #f1f1f1;
+}
