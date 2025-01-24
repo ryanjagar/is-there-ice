@@ -126,7 +126,7 @@
         const datasets = ref([]);
 
         onMounted(async () => {
-          locations.forEach(async (location) => {
+          for (const location of locations) {
             let x = new WeatherData(location);
             await x.generateChartData();
 
@@ -138,7 +138,7 @@
               borderWidth: 3
               // borderColor: 'rgba(75, 192, 192, 1)',
             });
-          });
+          };
 
           const iceBuilds = {
             label: "Ice Builds",
@@ -150,11 +150,12 @@
             // One data point for each datapoint in termperature list
             data: iceBuildsData
           }
-          datasets.value.push(iceBuilds)
-          nextTick(renderChart())
+          datasets.value.push(iceBuilds);
+          // nextTick(renderChart())
+          renderChart();
 
-
-        });
+        }
+        );
         //
 
 
