@@ -6,66 +6,6 @@
     },
     "weather": [
       {
-        "id": 600,
-        "main": "Snow",
-        "description": "light snow",
-        "icon": "13n"
-      },
-      {
-        "id": 701,
-        "main": "Mist",
-        "description": "mist",
-        "icon": "50n"
-      },
-      {
-        "id": 500,
-        "main": "Rain",
-        "description": "light rain",
-        "icon": "10n"
-      }
-    ],
-    "base": "stations",
-    "main": {
-      "temp": 0.97,
-      "feels_like": 0.97,
-      "temp_min": 0.97,
-      "temp_max": 2.01,
-      "pressure": 1003,
-      "humidity": 100,
-      "sea_level": 1003,
-      "grnd_level": 1002
-    },
-    "visibility": 4828,
-    "wind": {
-      "speed": 0,
-      "deg": 0
-    },
-    "rain": {
-      "1h": 0.76
-    },
-    "clouds": {
-      "all": 100
-    },
-    "dt": 1736837342,
-    "sys": {
-      "type": 1,
-      "id": 7704,
-      "country": "US",
-      "sunrise": 1736790416,
-      "sunset": 1736814771
-    },
-    "timezone": -32400,
-    "id": 5846893,
-    "name": "Haines",
-    "cod": 200
-  },
-  {
-    "coord": {
-      "lon": -135.3153,
-      "lat": 59.4554
-    },
-    "weather": [
-      {
         "id": 500,
         "main": "Rain",
         "description": "light rain",
@@ -481,6 +421,51 @@
       "country": "US",
       "sunrise": 1737567131,
       "sunset": 1737593604
+    },
+    "timezone": -32400,
+    "id": 5846893,
+    "name": "Haines",
+    "cod": 200
+  },
+  {
+    "coord": {
+      "lon": -135.3153,
+      "lat": 59.4554
+    },
+    "weather": [
+      {
+        "id": 804,
+        "main": "Clouds",
+        "description": "overcast clouds",
+        "icon": "04n"
+      }
+    ],
+    "base": "stations",
+    "main": {
+      "temp": 3.97,
+      "feels_like": -0.69,
+      "temp_min": 2.01,
+      "temp_max": 3.97,
+      "pressure": 1035,
+      "humidity": 93,
+      "sea_level": 1035,
+      "grnd_level": 1033
+    },
+    "visibility": 10000,
+    "wind": {
+      "speed": 6.69,
+      "deg": 200
+    },
+    "clouds": {
+      "all": 100
+    },
+    "dt": 1737701350,
+    "sys": {
+      "type": 1,
+      "id": 7704,
+      "country": "US",
+      "sunrise": 1737653417,
+      "sunset": 1737680150
     },
     "timezone": -32400,
     "id": 5846893,
