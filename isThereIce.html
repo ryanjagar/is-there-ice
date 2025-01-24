@@ -46,7 +46,7 @@
 
   <script>
 
-    const { createApp, ref, reactive, onBeforeMount, onMounted } = Vue
+    const { createApp, ref, reactive, onMounted, nextTick } = Vue
 
     class WeatherData {
       constructor(location) {
@@ -125,7 +125,7 @@
 
         const datasets = ref([]);
 
-        onMounted(() => {
+        onMounted(async () => {
           locations.forEach(async (location) => {
             let x = new WeatherData(location);
             await x.generateChartData();
@@ -151,9 +151,12 @@
             data: iceBuildsData
           }
           datasets.value.push(iceBuilds)
+          nextTick(renderChart())
 
-          renderChart();
+
         });
+        //
+
 
         const renderChart = () => {
 
