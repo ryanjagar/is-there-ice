@@ -15,4 +15,4 @@ The technology and approaches used in this app were an experiment to see what ki
 Weather data is collected nightly from [OpenWeather](https://openweathermap.org/appidlocations).  Scheduling and data processing is done using GitHub [Flat Data](https://next.github.com/projects/flat-data).
 
 ### Presentation
-The app uses [VueJS](https://vuejs.org) with [Vuetify](https://vuetifyjs.com/en/) for reactivity, layout, and styling.  [ChartJS](https://www.chartjs.org) provides the pretty graphs.  Hosting is a batteries-included service from [GitHub Pages](https://guides.github.com/features/pages/) which works really nicely with Javascript SPA's.   
+The app uses [VueJS](https://vuejs.org) for reactivity, and [ChartJS](https://www.chartjs.org) provides the pretty graphs.  Hosting is a batteries-included service from [GitHub Pages](https://guides.github.com/features/pages/) which works really nicely with Javascript SPA's.   
