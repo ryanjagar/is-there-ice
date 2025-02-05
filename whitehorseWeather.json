@@ -14,52 +14,6 @@
     ],
     "base": "stations",
     "main": {
-      "temp": 0.53,
-      "feels_like": -6.47,
-      "temp_min": 0.53,
-      "temp_max": 0.53,
-      "pressure": 1020,
-      "humidity": 75,
-      "sea_level": 1020,
-      "grnd_level": 925
-    },
-    "visibility": 10000,
-    "wind": {
-      "speed": 12.86,
-      "deg": 180,
-      "gust": 15.95
-    },
-    "clouds": {
-      "all": 75
-    },
-    "dt": 1737874138,
-    "sys": {
-      "type": 1,
-      "id": 983,
-      "country": "CA",
-      "sunrise": 1737826401,
-      "sunset": 1737852728
-    },
-    "timezone": -25200,
-    "id": 6180550,
-    "name": "Whitehorse",
-    "cod": 200
-  },
-  {
-    "coord": {
-      "lon": -135.1159,
-      "lat": 60.6836
-    },
-    "weather": [
-      {
-        "id": 803,
-        "main": "Clouds",
-        "description": "broken clouds",
-        "icon": "04n"
-      }
-    ],
-    "base": "stations",
-    "main": {
       "temp": -0.47,
       "feels_like": -6.61,
       "temp_min": -3.07,
@@ -450,6 +404,51 @@
       "country": "CA",
       "sunrise": 1738602728,
       "sunset": 1738631789
+    },
+    "timezone": -25200,
+    "id": 6180550,
+    "name": "Whitehorse",
+    "cod": 200
+  },
+  {
+    "coord": {
+      "lon": -135.1159,
+      "lat": 60.6836
+    },
+    "weather": [
+      {
+        "id": 801,
+        "main": "Clouds",
+        "description": "few clouds",
+        "icon": "02n"
+      }
+    ],
+    "base": "stations",
+    "main": {
+      "temp": -23.33,
+      "feels_like": -23.33,
+      "temp_min": -23.51,
+      "temp_max": -22.67,
+      "pressure": 1035,
+      "humidity": 74,
+      "sea_level": 1035,
+      "grnd_level": 932
+    },
+    "visibility": 10000,
+    "wind": {
+      "speed": 0,
+      "deg": 0
+    },
+    "clouds": {
+      "all": 20
+    },
+    "dt": 1738738148,
+    "sys": {
+      "type": 1,
+      "id": 983,
+      "country": "CA",
+      "sunrise": 1738688976,
+      "sunset": 1738718354
     },
     "timezone": -25200,
     "id": 6180550,
