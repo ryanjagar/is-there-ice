@@ -6,52 +6,6 @@
     },
     "weather": [
       {
-        "id": 804,
-        "main": "Clouds",
-        "description": "overcast clouds",
-        "icon": "04n"
-      }
-    ],
-    "base": "stations",
-    "main": {
-      "temp": 5.01,
-      "feels_like": 5.01,
-      "temp_min": 5.01,
-      "temp_max": 5.01,
-      "pressure": 1013,
-      "humidity": 98,
-      "sea_level": 1013,
-      "grnd_level": 1012
-    },
-    "visibility": 2968,
-    "wind": {
-      "speed": 1.1,
-      "deg": 123,
-      "gust": 1.59
-    },
-    "clouds": {
-      "all": 100
-    },
-    "dt": 1745563877,
-    "sys": {
-      "type": 1,
-      "id": 7707,
-      "country": "US",
-      "sunrise": 1745500759,
-      "sunset": 1745555939
-    },
-    "timezone": -28800,
-    "id": 5846893,
-    "name": "Haines",
-    "cod": 200
-  },
-  {
-    "coord": {
-      "lon": -135.3153,
-      "lat": 59.4554
-    },
-    "weather": [
-      {
         "id": 500,
         "main": "Rain",
         "description": "light rain",
@@ -481,6 +435,52 @@
       "country": "US",
       "sunrise": 1746276917,
       "sunset": 1746334847
+    },
+    "timezone": -28800,
+    "id": 5846893,
+    "name": "Haines",
+    "cod": 200
+  },
+  {
+    "coord": {
+      "lon": -135.3153,
+      "lat": 59.4554
+    },
+    "weather": [
+      {
+        "id": 500,
+        "main": "Rain",
+        "description": "light rain",
+        "icon": "10n"
+      }
+    ],
+    "base": "stations",
+    "main": {
+      "temp": 7.97,
+      "feels_like": 4.11,
+      "temp_min": 7.01,
+      "temp_max": 7.97,
+      "pressure": 1019,
+      "humidity": 71,
+      "sea_level": 1019,
+      "grnd_level": 1018
+    },
+    "visibility": 10000,
+    "wind": {
+      "speed": 7.72,
+      "deg": 210,
+      "gust": 10.29
+    },
+    "clouds": {
+      "all": 100
+    },
+    "dt": 1746427943,
+    "sys": {
+      "type": 1,
+      "id": 7704,
+      "country": "US",
+      "sunrise": 1746363163,
+      "sunset": 1746421392
     },
     "timezone": -28800,
     "id": 5846893,
