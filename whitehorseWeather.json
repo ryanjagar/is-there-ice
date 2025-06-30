@@ -6,54 +6,6 @@
     },
     "weather": [
       {
-        "id": 500,
-        "main": "Rain",
-        "description": "light rain",
-        "icon": "10n"
-      }
-    ],
-    "base": "stations",
-    "main": {
-      "temp": 18.53,
-      "feels_like": 17.54,
-      "temp_min": 13.6,
-      "temp_max": 18.53,
-      "pressure": 1012,
-      "humidity": 42,
-      "sea_level": 1012,
-      "grnd_level": 923
-    },
-    "visibility": 10000,
-    "wind": {
-      "speed": 1.03,
-      "deg": 0
-    },
-    "rain": {
-      "1h": 0.53
-    },
-    "clouds": {
-      "all": 75
-    },
-    "dt": 1750402400,
-    "sys": {
-      "type": 1,
-      "id": 983,
-      "country": "CA",
-      "sunrise": 1750332470,
-      "sunset": 1750401358
-    },
-    "timezone": -25200,
-    "id": 6180550,
-    "name": "Whitehorse",
-    "cod": 200
-  },
-  {
-    "coord": {
-      "lon": -135.1159,
-      "lat": 60.6836
-    },
-    "weather": [
-      {
         "id": 711,
         "main": "Smoke",
         "description": "smoke",
@@ -447,6 +399,51 @@
       "country": "CA",
       "sunrise": 1751110330,
       "sunset": 1751178913
+    },
+    "timezone": -25200,
+    "id": 6180550,
+    "name": "Whitehorse",
+    "cod": 200
+  },
+  {
+    "coord": {
+      "lon": -135.1159,
+      "lat": 60.6836
+    },
+    "weather": [
+      {
+        "id": 803,
+        "main": "Clouds",
+        "description": "broken clouds",
+        "icon": "04n"
+      }
+    ],
+    "base": "stations",
+    "main": {
+      "temp": 12.53,
+      "feels_like": 11.14,
+      "temp_min": 8.6,
+      "temp_max": 12.53,
+      "pressure": 1019,
+      "humidity": 50,
+      "sea_level": 1019,
+      "grnd_level": 927
+    },
+    "visibility": 10000,
+    "wind": {
+      "speed": 3.6,
+      "deg": 320
+    },
+    "clouds": {
+      "all": 75
+    },
+    "dt": 1751266453,
+    "sys": {
+      "type": 1,
+      "id": 983,
+      "country": "CA",
+      "sunrise": 1751196787,
+      "sunset": 1751265279
     },
     "timezone": -25200,
     "id": 6180550,
