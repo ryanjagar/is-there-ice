@@ -15,51 +15,6 @@
     "base": "stations",
     "main": {
       "temp": 12.97,
-      "feels_like": 12.31,
-      "temp_min": 12.01,
-      "temp_max": 12.97,
-      "pressure": 1023,
-      "humidity": 76,
-      "sea_level": 1023,
-      "grnd_level": 1022
-    },
-    "visibility": 10000,
-    "wind": {
-      "speed": 5.66,
-      "deg": 190
-    },
-    "clouds": {
-      "all": 100
-    },
-    "dt": 1751266455,
-    "sys": {
-      "type": 1,
-      "id": 7704,
-      "country": "US",
-      "sunrise": 1751197667,
-      "sunset": 1751264495
-    },
-    "timezone": -28800,
-    "id": 5846893,
-    "name": "Haines",
-    "cod": 200
-  },
-  {
-    "coord": {
-      "lon": -135.3153,
-      "lat": 59.4554
-    },
-    "weather": [
-      {
-        "id": 804,
-        "main": "Clouds",
-        "description": "overcast clouds",
-        "icon": "04n"
-      }
-    ],
-    "base": "stations",
-    "main": {
-      "temp": 12.97,
       "feels_like": 12.46,
       "temp_min": 12.97,
       "temp_max": 13.01,
@@ -447,6 +402,51 @@
       "country": "US",
       "sunrise": 1751975925,
       "sunset": 1752041618
+    },
+    "timezone": -28800,
+    "id": 5846893,
+    "name": "Haines",
+    "cod": 200
+  },
+  {
+    "coord": {
+      "lon": -135.3153,
+      "lat": 59.4554
+    },
+    "weather": [
+      {
+        "id": 803,
+        "main": "Clouds",
+        "description": "broken clouds",
+        "icon": "04n"
+      }
+    ],
+    "base": "stations",
+    "main": {
+      "temp": 13.97,
+      "feels_like": 13.17,
+      "temp_min": 13.01,
+      "temp_max": 13.97,
+      "pressure": 1020,
+      "humidity": 67,
+      "sea_level": 1020,
+      "grnd_level": 1019
+    },
+    "visibility": 10000,
+    "wind": {
+      "speed": 6.17,
+      "deg": 210
+    },
+    "clouds": {
+      "all": 75
+    },
+    "dt": 1752130460,
+    "sys": {
+      "type": 1,
+      "id": 7704,
+      "country": "US",
+      "sunrise": 1752062418,
+      "sunset": 1752127943
     },
     "timezone": -28800,
     "id": 5846893,
