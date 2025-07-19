@@ -6,52 +6,6 @@
     },
     "weather": [
       {
-        "id": 804,
-        "main": "Clouds",
-        "description": "overcast clouds",
-        "icon": "04n"
-      }
-    ],
-    "base": "stations",
-    "main": {
-      "temp": 12.01,
-      "feels_like": 11.8,
-      "temp_min": 12.01,
-      "temp_max": 12.01,
-      "pressure": 1011,
-      "humidity": 97,
-      "sea_level": 1011,
-      "grnd_level": 1010
-    },
-    "visibility": 290,
-    "wind": {
-      "speed": 3.41,
-      "deg": 196,
-      "gust": 5.73
-    },
-    "clouds": {
-      "all": 100
-    },
-    "dt": 1752044057,
-    "sys": {
-      "type": 1,
-      "id": 7707,
-      "country": "US",
-      "sunrise": 1751975925,
-      "sunset": 1752041618
-    },
-    "timezone": -28800,
-    "id": 5846893,
-    "name": "Haines",
-    "cod": 200
-  },
-  {
-    "coord": {
-      "lon": -135.3153,
-      "lat": 59.4554
-    },
-    "weather": [
-      {
         "id": 803,
         "main": "Clouds",
         "description": "broken clouds",
@@ -447,6 +401,51 @@
       "country": "US",
       "sunrise": 1752754467,
       "sunset": 1752818402
+    },
+    "timezone": -28800,
+    "id": 5846893,
+    "name": "Haines",
+    "cod": 200
+  },
+  {
+    "coord": {
+      "lon": -135.3153,
+      "lat": 59.4554
+    },
+    "weather": [
+      {
+        "id": 804,
+        "main": "Clouds",
+        "description": "overcast clouds",
+        "icon": "04n"
+      }
+    ],
+    "base": "stations",
+    "main": {
+      "temp": 15.97,
+      "feels_like": 15.5,
+      "temp_min": 15.97,
+      "temp_max": 16.01,
+      "pressure": 1017,
+      "humidity": 72,
+      "sea_level": 1017,
+      "grnd_level": 1016
+    },
+    "visibility": 10000,
+    "wind": {
+      "speed": 6.17,
+      "deg": 210
+    },
+    "clouds": {
+      "all": 100
+    },
+    "dt": 1752908013,
+    "sys": {
+      "type": 1,
+      "id": 7704,
+      "country": "US",
+      "sunrise": 1752840984,
+      "sunset": 1752904694
     },
     "timezone": -28800,
     "id": 5846893,
