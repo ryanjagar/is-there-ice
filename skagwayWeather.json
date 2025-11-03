@@ -14,55 +14,6 @@
     ],
     "base": "stations",
     "main": {
-      "temp": 7.97,
-      "feels_like": 4.43,
-      "temp_min": 7.97,
-      "temp_max": 8.01,
-      "pressure": 986,
-      "humidity": 87,
-      "sea_level": 986,
-      "grnd_level": 986
-    },
-    "visibility": 10000,
-    "wind": {
-      "speed": 6.69,
-      "deg": 200,
-      "gust": 10.8
-    },
-    "rain": {
-      "1h": 0.29
-    },
-    "clouds": {
-      "all": 100
-    },
-    "dt": 1761288692,
-    "sys": {
-      "type": 1,
-      "id": 7704,
-      "country": "US",
-      "sunrise": 1761235181,
-      "sunset": 1761269465
-    },
-    "timezone": -28800,
-    "id": 5846893,
-    "name": "Haines",
-    "cod": 200
-  },
-  {
-    "coord": {
-      "lon": -135.3153,
-      "lat": 59.4554
-    },
-    "weather": [
-      {
-        "id": 500,
-        "main": "Rain",
-        "description": "light rain",
-        "icon": "10n"
-      }
-    ],
-    "base": "stations",
-    "main": {
       "temp": 5.97,
       "feels_like": 5.97,
       "temp_min": 5.97,
@@ -473,6 +424,52 @@
       "sunset": 1762045647
     },
     "timezone": -28800,
+    "id": 5846893,
+    "name": "Haines",
+    "cod": 200
+  },
+  {
+    "coord": {
+      "lon": -135.3153,
+      "lat": 59.4554
+    },
+    "weather": [
+      {
+        "id": 803,
+        "main": "Clouds",
+        "description": "broken clouds",
+        "icon": "04n"
+      }
+    ],
+    "base": "stations",
+    "main": {
+      "temp": 6.97,
+      "feels_like": 1.78,
+      "temp_min": 6.01,
+      "temp_max": 6.97,
+      "pressure": 1010,
+      "humidity": 76,
+      "sea_level": 1010,
+      "grnd_level": 1009
+    },
+    "visibility": 10000,
+    "wind": {
+      "speed": 11.83,
+      "deg": 210,
+      "gust": 15.43
+    },
+    "clouds": {
+      "all": 75
+    },
+    "dt": 1762152825,
+    "sys": {
+      "type": 1,
+      "id": 7704,
+      "country": "US",
+      "sunrise": 1762100677,
+      "sunset": 1762131896
+    },
+    "timezone": -32400,
     "id": 5846893,
     "name": "Haines",
     "cod": 200
