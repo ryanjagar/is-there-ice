@@ -14,52 +14,6 @@
     ],
     "base": "stations",
     "main": {
-      "temp": 0.17,
-      "feels_like": -5.32,
-      "temp_min": -0.17,
-      "temp_max": 0.53,
-      "pressure": 993,
-      "humidity": 73,
-      "sea_level": 993,
-      "grnd_level": 901
-    },
-    "visibility": 10000,
-    "wind": {
-      "speed": 6.17,
-      "deg": 150,
-      "gust": 9.77
-    },
-    "clouds": {
-      "all": 100
-    },
-    "dt": 1762066242,
-    "sys": {
-      "type": 1,
-      "id": 983,
-      "country": "CA",
-      "sunrise": 1762014402,
-      "sunset": 1762045275
-    },
-    "timezone": -25200,
-    "id": 6180550,
-    "name": "Whitehorse",
-    "cod": 200
-  },
-  {
-    "coord": {
-      "lon": -135.1159,
-      "lat": 60.6836
-    },
-    "weather": [
-      {
-        "id": 804,
-        "main": "Clouds",
-        "description": "overcast clouds",
-        "icon": "04n"
-      }
-    ],
-    "base": "stations",
-    "main": {
       "temp": 1.02,
       "feels_like": -4.48,
       "temp_min": -0.85,
@@ -446,6 +400,51 @@
       "country": "CA",
       "sunrise": 1762793444,
       "sunset": 1762821494
+    },
+    "timezone": -25200,
+    "id": 6180550,
+    "name": "Whitehorse",
+    "cod": 200
+  },
+  {
+    "coord": {
+      "lon": -135.1159,
+      "lat": 60.6836
+    },
+    "weather": [
+      {
+        "id": 804,
+        "main": "Clouds",
+        "description": "overcast clouds",
+        "icon": "04n"
+      }
+    ],
+    "base": "stations",
+    "main": {
+      "temp": -7.47,
+      "feels_like": -11.25,
+      "temp_min": -7.47,
+      "temp_max": -7.47,
+      "pressure": 1010,
+      "humidity": 93,
+      "sea_level": 1010,
+      "grnd_level": 916
+    },
+    "visibility": 10000,
+    "wind": {
+      "speed": 2.06,
+      "deg": 0
+    },
+    "clouds": {
+      "all": 100
+    },
+    "dt": 1762930417,
+    "sys": {
+      "type": 1,
+      "id": 983,
+      "country": "CA",
+      "sunrise": 1762880003,
+      "sunset": 1762907750
     },
     "timezone": -25200,
     "id": 6180550,
