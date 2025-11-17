@@ -6,52 +6,6 @@
     },
     "weather": [
       {
-        "id": 803,
-        "main": "Clouds",
-        "description": "broken clouds",
-        "icon": "04n"
-      }
-    ],
-    "base": "stations",
-    "main": {
-      "temp": 0.22,
-      "feels_like": -5.5,
-      "temp_min": -0.17,
-      "temp_max": 0.53,
-      "pressure": 999,
-      "humidity": 75,
-      "sea_level": 999,
-      "grnd_level": 906
-    },
-    "visibility": 10000,
-    "wind": {
-      "speed": 6.71,
-      "deg": 160,
-      "gust": 10.28
-    },
-    "clouds": {
-      "all": 75
-    },
-    "dt": 1762498381,
-    "sys": {
-      "type": 1,
-      "id": 983,
-      "country": "CA",
-      "sunrise": 1762447204,
-      "sunset": 1762476490
-    },
-    "timezone": -25200,
-    "id": 6180550,
-    "name": "Whitehorse",
-    "cod": 200
-  },
-  {
-    "coord": {
-      "lon": -135.1159,
-      "lat": 60.6836
-    },
-    "weather": [
-      {
         "id": 802,
         "main": "Clouds",
         "description": "scattered clouds",
@@ -444,6 +398,51 @@
       "country": "CA",
       "sunrise": 1763226235,
       "sunset": 1763252796
+    },
+    "timezone": -25200,
+    "id": 6180550,
+    "name": "Whitehorse",
+    "cod": 200
+  },
+  {
+    "coord": {
+      "lon": -135.1159,
+      "lat": 60.6836
+    },
+    "weather": [
+      {
+        "id": 801,
+        "main": "Clouds",
+        "description": "few clouds",
+        "icon": "02n"
+      }
+    ],
+    "base": "stations",
+    "main": {
+      "temp": -6.64,
+      "feels_like": -13.64,
+      "temp_min": -7.12,
+      "temp_max": -6.47,
+      "pressure": 1005,
+      "humidity": 93,
+      "sea_level": 1005,
+      "grnd_level": 910
+    },
+    "visibility": 10000,
+    "wind": {
+      "speed": 6.17,
+      "deg": 190
+    },
+    "clouds": {
+      "all": 20
+    },
+    "dt": 1763362404,
+    "sys": {
+      "type": 1,
+      "id": 983,
+      "country": "CA",
+      "sunrise": 1763312791,
+      "sunset": 1763339063
     },
     "timezone": -25200,
     "id": 6180550,
