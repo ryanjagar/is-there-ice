@@ -6,51 +6,6 @@
     },
     "weather": [
       {
-        "id": 804,
-        "main": "Clouds",
-        "description": "overcast clouds",
-        "icon": "04n"
-      }
-    ],
-    "base": "stations",
-    "main": {
-      "temp": 2.97,
-      "feels_like": 0.94,
-      "temp_min": 2.01,
-      "temp_max": 2.97,
-      "pressure": 1006,
-      "humidity": 87,
-      "sea_level": 1006,
-      "grnd_level": 1005
-    },
-    "visibility": 10000,
-    "wind": {
-      "speed": 2.06,
-      "deg": 60
-    },
-    "clouds": {
-      "all": 100
-    },
-    "dt": 1763016803,
-    "sys": {
-      "type": 1,
-      "id": 7704,
-      "country": "US",
-      "sunrise": 1762966179,
-      "sunset": 1762994486
-    },
-    "timezone": -32400,
-    "id": 5846893,
-    "name": "Haines",
-    "cod": 200
-  },
-  {
-    "coord": {
-      "lon": -135.3153,
-      "lat": 59.4554
-    },
-    "weather": [
-      {
         "id": 500,
         "main": "Rain",
         "description": "light rain",
@@ -464,6 +419,54 @@
       "country": "US",
       "sunrise": 1763745080,
       "sunset": 1763771010
+    },
+    "timezone": -32400,
+    "id": 5846893,
+    "name": "Haines",
+    "cod": 200
+  },
+  {
+    "coord": {
+      "lon": -135.3153,
+      "lat": 59.4554
+    },
+    "weather": [
+      {
+        "id": 500,
+        "main": "Rain",
+        "description": "light rain",
+        "icon": "10n"
+      }
+    ],
+    "base": "stations",
+    "main": {
+      "temp": 1.97,
+      "feels_like": -1.21,
+      "temp_min": 1.97,
+      "temp_max": 4.01,
+      "pressure": 1012,
+      "humidity": 93,
+      "sea_level": 1012,
+      "grnd_level": 1011
+    },
+    "visibility": 10000,
+    "wind": {
+      "speed": 3.09,
+      "deg": 60
+    },
+    "rain": {
+      "1h": 0.19
+    },
+    "clouds": {
+      "all": 40
+    },
+    "dt": 1763880711,
+    "sys": {
+      "type": 1,
+      "id": 7704,
+      "country": "US",
+      "sunrise": 1763831619,
+      "sunset": 1763857304
     },
     "timezone": -32400,
     "id": 5846893,
