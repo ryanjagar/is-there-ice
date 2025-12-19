@@ -14,53 +14,6 @@
     ],
     "base": "stations",
     "main": {
-      "temp": -27.52,
-      "feels_like": -33.26,
-      "temp_min": -27.52,
-      "temp_max": -27.52,
-      "pressure": 1020,
-      "humidity": 98,
-      "sea_level": 1020,
-      "grnd_level": 926
-    },
-    "visibility": 201,
-    "wind": {
-      "speed": 1.54,
-      "deg": 52,
-      "gust": 1.85
-    },
-    "snow": {
-      "1h": 0.15
-    },
-    "clouds": {
-      "all": 100
-    },
-    "dt": 1765263316,
-    "sys": {
-      "country": "CA",
-      "sunrise": 1765213174,
-      "sunset": 1765236405
-    },
-    "timezone": -25200,
-    "id": 6064168,
-    "name": "Magnum Mine",
-    "cod": 200
-  },
-  {
-    "coord": {
-      "lon": -125.2317,
-      "lat": 58.8478
-    },
-    "weather": [
-      {
-        "id": 600,
-        "main": "Snow",
-        "description": "light snow",
-        "icon": "13n"
-      }
-    ],
-    "base": "stations",
-    "main": {
       "temp": -24.53,
       "feels_like": -24.53,
       "temp_min": -24.53,
@@ -439,6 +392,50 @@
       "country": "CA",
       "sunrise": 1765991402,
       "sunset": 1766013870
+    },
+    "timezone": -25200,
+    "id": 6064168,
+    "name": "Magnum Mine",
+    "cod": 200
+  },
+  {
+    "coord": {
+      "lon": -125.2317,
+      "lat": 58.8478
+    },
+    "weather": [
+      {
+        "id": 804,
+        "main": "Clouds",
+        "description": "overcast clouds",
+        "icon": "04n"
+      }
+    ],
+    "base": "stations",
+    "main": {
+      "temp": -24.72,
+      "feels_like": -24.72,
+      "temp_min": -24.72,
+      "temp_max": -24.72,
+      "pressure": 1016,
+      "humidity": 100,
+      "sea_level": 1016,
+      "grnd_level": 923
+    },
+    "visibility": 1533,
+    "wind": {
+      "speed": 1.15,
+      "deg": 59,
+      "gust": 1.49
+    },
+    "clouds": {
+      "all": 100
+    },
+    "dt": 1766127300,
+    "sys": {
+      "country": "CA",
+      "sunrise": 1766077849,
+      "sunset": 1766100281
     },
     "timezone": -25200,
     "id": 6064168,
