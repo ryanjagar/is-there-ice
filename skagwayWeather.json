@@ -6,54 +6,6 @@
     },
     "weather": [
       {
-        "id": 601,
-        "main": "Snow",
-        "description": "snow",
-        "icon": "13n"
-      }
-    ],
-    "base": "stations",
-    "main": {
-      "temp": 0.97,
-      "feels_like": 0.97,
-      "temp_min": 0.97,
-      "temp_max": 2.01,
-      "pressure": 988,
-      "humidity": 100,
-      "sea_level": 988,
-      "grnd_level": 987
-    },
-    "visibility": 10000,
-    "wind": {
-      "speed": 0,
-      "deg": 0
-    },
-    "snow": {
-      "1h": 1.12
-    },
-    "clouds": {
-      "all": 100
-    },
-    "dt": 1768201070,
-    "sys": {
-      "type": 1,
-      "id": 7704,
-      "country": "US",
-      "sunrise": 1768153793,
-      "sunset": 1768177692
-    },
-    "timezone": -32400,
-    "id": 5846893,
-    "name": "Haines",
-    "cod": 200
-  },
-  {
-    "coord": {
-      "lon": -135.3153,
-      "lat": 59.4554
-    },
-    "weather": [
-      {
         "id": 500,
         "main": "Rain",
         "description": "light rain",
@@ -468,6 +420,52 @@
       "country": "US",
       "sunrise": 1768930577,
       "sunset": 1768956481
+    },
+    "timezone": -32400,
+    "id": 5846893,
+    "name": "Haines",
+    "cod": 200
+  },
+  {
+    "coord": {
+      "lon": -135.3153,
+      "lat": 59.4554
+    },
+    "weather": [
+      {
+        "id": 800,
+        "main": "Clear",
+        "description": "clear sky",
+        "icon": "01n"
+      }
+    ],
+    "base": "stations",
+    "main": {
+      "temp": -1.03,
+      "feels_like": -8.03,
+      "temp_min": -1.03,
+      "temp_max": 1.01,
+      "pressure": 1028,
+      "humidity": 43,
+      "sea_level": 1028,
+      "grnd_level": 1027
+    },
+    "visibility": 10000,
+    "wind": {
+      "speed": 12.35,
+      "deg": 50,
+      "gust": 17.49
+    },
+    "clouds": {
+      "all": 0
+    },
+    "dt": 1769065040,
+    "sys": {
+      "type": 1,
+      "id": 7704,
+      "country": "US",
+      "sunrise": 1769016870,
+      "sunset": 1769043023
     },
     "timezone": -32400,
     "id": 5846893,
