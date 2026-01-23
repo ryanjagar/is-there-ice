@@ -6,54 +6,6 @@
     },
     "weather": [
       {
-        "id": 500,
-        "main": "Rain",
-        "description": "light rain",
-        "icon": "10n"
-      }
-    ],
-    "base": "stations",
-    "main": {
-      "temp": 6.97,
-      "feels_like": 3.33,
-      "temp_min": 4.01,
-      "temp_max": 6.97,
-      "pressure": 1005,
-      "humidity": 76,
-      "sea_level": 1005,
-      "grnd_level": 1004
-    },
-    "visibility": 10000,
-    "wind": {
-      "speed": 6.17,
-      "deg": 200
-    },
-    "rain": {
-      "1h": 0.62
-    },
-    "clouds": {
-      "all": 100
-    },
-    "dt": 1768287377,
-    "sys": {
-      "type": 1,
-      "id": 7704,
-      "country": "US",
-      "sunrise": 1768240117,
-      "sunset": 1768264214
-    },
-    "timezone": -32400,
-    "id": 5846893,
-    "name": "Haines",
-    "cod": 200
-  },
-  {
-    "coord": {
-      "lon": -135.3153,
-      "lat": 59.4554
-    },
-    "weather": [
-      {
         "id": 501,
         "main": "Rain",
         "description": "moderate rain",
@@ -466,6 +418,52 @@
       "country": "US",
       "sunrise": 1769016870,
       "sunset": 1769043023
+    },
+    "timezone": -32400,
+    "id": 5846893,
+    "name": "Haines",
+    "cod": 200
+  },
+  {
+    "coord": {
+      "lon": -135.3153,
+      "lat": 59.4554
+    },
+    "weather": [
+      {
+        "id": 800,
+        "main": "Clear",
+        "description": "clear sky",
+        "icon": "01n"
+      }
+    ],
+    "base": "stations",
+    "main": {
+      "temp": -2.03,
+      "feels_like": -9.03,
+      "temp_min": -2.03,
+      "temp_max": 1.01,
+      "pressure": 1035,
+      "humidity": 46,
+      "sea_level": 1035,
+      "grnd_level": 1034
+    },
+    "visibility": 10000,
+    "wind": {
+      "speed": 15.95,
+      "deg": 40,
+      "gust": 24.18
+    },
+    "clouds": {
+      "all": 0
+    },
+    "dt": 1769151422,
+    "sys": {
+      "type": 1,
+      "id": 7704,
+      "country": "US",
+      "sunrise": 1769103159,
+      "sunset": 1769129567
     },
     "timezone": -32400,
     "id": 5846893,
