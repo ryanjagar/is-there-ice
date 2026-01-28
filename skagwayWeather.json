@@ -14,51 +14,6 @@
     ],
     "base": "stations",
     "main": {
-      "temp": -0.03,
-      "feels_like": -3.13,
-      "temp_min": -0.03,
-      "temp_max": 1.01,
-      "pressure": 1031,
-      "humidity": 93,
-      "sea_level": 1031,
-      "grnd_level": 1030
-    },
-    "visibility": 10000,
-    "wind": {
-      "speed": 2.57,
-      "deg": 40
-    },
-    "clouds": {
-      "all": 0
-    },
-    "dt": 1768719266,
-    "sys": {
-      "type": 1,
-      "id": 7704,
-      "country": "US",
-      "sunrise": 1768671681,
-      "sunset": 1768696864
-    },
-    "timezone": -32400,
-    "id": 5846893,
-    "name": "Haines",
-    "cod": 200
-  },
-  {
-    "coord": {
-      "lon": -135.3153,
-      "lat": 59.4554
-    },
-    "weather": [
-      {
-        "id": 800,
-        "main": "Clear",
-        "description": "clear sky",
-        "icon": "01n"
-      }
-    ],
-    "base": "stations",
-    "main": {
       "temp": -1.03,
       "feels_like": -1.03,
       "temp_min": -1.03,
@@ -452,6 +407,54 @@
       "country": "US",
       "sunrise": 1769448290,
       "sunset": 1769475756
+    },
+    "timezone": -32400,
+    "id": 5846893,
+    "name": "Haines",
+    "cod": 200
+  },
+  {
+    "coord": {
+      "lon": -135.3153,
+      "lat": 59.4554
+    },
+    "weather": [
+      {
+        "id": 500,
+        "main": "Rain",
+        "description": "light rain",
+        "icon": "10n"
+      }
+    ],
+    "base": "stations",
+    "main": {
+      "temp": 1.97,
+      "feels_like": -1.21,
+      "temp_min": 1.97,
+      "temp_max": 3.01,
+      "pressure": 1000,
+      "humidity": 93,
+      "sea_level": 1000,
+      "grnd_level": 999
+    },
+    "visibility": 10000,
+    "wind": {
+      "speed": 3.09,
+      "deg": 40
+    },
+    "rain": {
+      "1h": 0.16
+    },
+    "clouds": {
+      "all": 75
+    },
+    "dt": 1769583459,
+    "sys": {
+      "type": 1,
+      "id": 7704,
+      "country": "US",
+      "sunrise": 1769534566,
+      "sunset": 1769562306
     },
     "timezone": -32400,
     "id": 5846893,
