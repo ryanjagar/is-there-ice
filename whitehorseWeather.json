@@ -6,51 +6,6 @@
     },
     "weather": [
       {
-        "id": 600,
-        "main": "Snow",
-        "description": "light snow",
-        "icon": "13n"
-      }
-    ],
-    "base": "stations",
-    "main": {
-      "temp": -15.59,
-      "feels_like": -19.63,
-      "temp_min": -15.73,
-      "temp_max": -14.89,
-      "pressure": 1038,
-      "humidity": 85,
-      "sea_level": 1038,
-      "grnd_level": 938
-    },
-    "visibility": 10000,
-    "wind": {
-      "speed": 1.54,
-      "deg": 300
-    },
-    "clouds": {
-      "all": 100
-    },
-    "dt": 1768978683,
-    "sys": {
-      "type": 1,
-      "id": 983,
-      "country": "CA",
-      "sunrise": 1768931052,
-      "sunset": 1768955910
-    },
-    "timezone": -25200,
-    "id": 6180550,
-    "name": "Whitehorse",
-    "cod": 200
-  },
-  {
-    "coord": {
-      "lon": -135.1159,
-      "lat": 60.6836
-    },
-    "weather": [
-      {
         "id": 803,
         "main": "Clouds",
         "description": "broken clouds",
@@ -445,6 +400,60 @@
       "country": "CA",
       "sunrise": 1769793752,
       "sunset": 1769821493
+    },
+    "timezone": -25200,
+    "id": 6180550,
+    "name": "Whitehorse",
+    "cod": 200
+  },
+  {
+    "coord": {
+      "lon": -135.1159,
+      "lat": 60.6836
+    },
+    "weather": [
+      {
+        "id": 600,
+        "main": "Snow",
+        "description": "light snow",
+        "icon": "13n"
+      },
+      {
+        "id": 701,
+        "main": "Mist",
+        "description": "mist",
+        "icon": "50n"
+      }
+    ],
+    "base": "stations",
+    "main": {
+      "temp": -11.47,
+      "feels_like": -11.47,
+      "temp_min": -11.47,
+      "temp_max": -11.47,
+      "pressure": 1014,
+      "humidity": 92,
+      "sea_level": 1014,
+      "grnd_level": 919
+    },
+    "visibility": 4023,
+    "wind": {
+      "speed": 0,
+      "deg": 0
+    },
+    "snow": {
+      "1h": 0.25
+    },
+    "clouds": {
+      "all": 100
+    },
+    "dt": 1769842807,
+    "sys": {
+      "type": 1,
+      "id": 983,
+      "country": "CA",
+      "sunrise": 1769880009,
+      "sunset": 1769908056
     },
     "timezone": -25200,
     "id": 6180550,
