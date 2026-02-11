@@ -14,50 +14,6 @@
     ],
     "base": "stations",
     "main": {
-      "temp": 2.34,
-      "feels_like": -1.04,
-      "temp_min": 2.34,
-      "temp_max": 2.34,
-      "pressure": 1007,
-      "humidity": 89,
-      "sea_level": 1007,
-      "grnd_level": 1006
-    },
-    "visibility": 10000,
-    "wind": {
-      "speed": 3.46,
-      "deg": 30,
-      "gust": 4.44
-    },
-    "clouds": {
-      "all": 100
-    },
-    "dt": 1769929462,
-    "sys": {
-      "country": "US",
-      "sunrise": 1769879646,
-      "sunset": 1769908514
-    },
-    "timezone": -32400,
-    "id": 5846893,
-    "name": "Haines",
-    "cod": 200
-  },
-  {
-    "coord": {
-      "lon": -135.3153,
-      "lat": 59.4554
-    },
-    "weather": [
-      {
-        "id": 804,
-        "main": "Clouds",
-        "description": "overcast clouds",
-        "icon": "04n"
-      }
-    ],
-    "base": "stations",
-    "main": {
       "temp": 1.01,
       "feels_like": -1.68,
       "temp_min": 1.01,
@@ -462,6 +418,55 @@
       "country": "US",
       "sunrise": 1770655959,
       "sunset": 1770687506
+    },
+    "timezone": -32400,
+    "id": 5846893,
+    "name": "Haines",
+    "cod": 200
+  },
+  {
+    "coord": {
+      "lon": -135.3153,
+      "lat": 59.4554
+    },
+    "weather": [
+      {
+        "id": 501,
+        "main": "Rain",
+        "description": "moderate rain",
+        "icon": "10n"
+      }
+    ],
+    "base": "stations",
+    "main": {
+      "temp": 5.97,
+      "feels_like": -0.36,
+      "temp_min": 4.01,
+      "temp_max": 5.97,
+      "pressure": 1001,
+      "humidity": 75,
+      "sea_level": 1001,
+      "grnd_level": 1000
+    },
+    "visibility": 10000,
+    "wind": {
+      "speed": 15.95,
+      "deg": 210,
+      "gust": 23.15
+    },
+    "rain": {
+      "1h": 1.7
+    },
+    "clouds": {
+      "all": 100
+    },
+    "dt": 1770793795,
+    "sys": {
+      "type": 1,
+      "id": 7704,
+      "country": "US",
+      "sunrise": 1770742208,
+      "sunset": 1770774060
     },
     "timezone": -32400,
     "id": 5846893,
