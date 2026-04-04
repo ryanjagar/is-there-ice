@@ -14,50 +14,6 @@
     ],
     "base": "stations",
     "main": {
-      "temp": -18.86,
-      "feels_like": -24.51,
-      "temp_min": -18.86,
-      "temp_max": -18.86,
-      "pressure": 1030,
-      "humidity": 100,
-      "sea_level": 1030,
-      "grnd_level": 938
-    },
-    "visibility": 401,
-    "wind": {
-      "speed": 2.04,
-      "deg": 62,
-      "gust": 2.34
-    },
-    "clouds": {
-      "all": 100
-    },
-    "dt": 1774422586,
-    "sys": {
-      "country": "CA",
-      "sunrise": 1774447657,
-      "sunset": 1774493155
-    },
-    "timezone": -25200,
-    "id": 6064168,
-    "name": "Magnum Mine",
-    "cod": 200
-  },
-  {
-    "coord": {
-      "lon": -125.2317,
-      "lat": 58.8478
-    },
-    "weather": [
-      {
-        "id": 804,
-        "main": "Clouds",
-        "description": "overcast clouds",
-        "icon": "04n"
-      }
-    ],
-    "base": "stations",
-    "main": {
       "temp": -20.53,
       "feels_like": -20.53,
       "temp_min": -20.53,
@@ -433,6 +389,53 @@
       "country": "CA",
       "sunrise": 1775223680,
       "sunset": 1775271996
+    },
+    "timezone": -25200,
+    "id": 6064168,
+    "name": "Magnum Mine",
+    "cod": 200
+  },
+  {
+    "coord": {
+      "lon": -125.2317,
+      "lat": 58.8478
+    },
+    "weather": [
+      {
+        "id": 600,
+        "main": "Snow",
+        "description": "light snow",
+        "icon": "13n"
+      }
+    ],
+    "base": "stations",
+    "main": {
+      "temp": -7.86,
+      "feels_like": -7.86,
+      "temp_min": -7.86,
+      "temp_max": -7.86,
+      "pressure": 1028,
+      "humidity": 98,
+      "sea_level": 1028,
+      "grnd_level": 939
+    },
+    "visibility": 484,
+    "wind": {
+      "speed": 0.45,
+      "deg": 231,
+      "gust": 0.54
+    },
+    "snow": {
+      "1h": 0.17
+    },
+    "clouds": {
+      "all": 100
+    },
+    "dt": 1775286042,
+    "sys": {
+      "country": "CA",
+      "sunrise": 1775309906,
+      "sunset": 1775358534
     },
     "timezone": -25200,
     "id": 6064168,
