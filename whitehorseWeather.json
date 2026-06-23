@@ -6,52 +6,6 @@
     },
     "weather": [
       {
-        "id": 802,
-        "main": "Clouds",
-        "description": "scattered clouds",
-        "icon": "03n"
-      }
-    ],
-    "base": "stations",
-    "main": {
-      "temp": 11.77,
-      "feels_like": 10.18,
-      "temp_min": 6.93,
-      "temp_max": 11.77,
-      "pressure": 1022,
-      "humidity": 45,
-      "sea_level": 1022,
-      "grnd_level": 931
-    },
-    "visibility": 10000,
-    "wind": {
-      "speed": 2.23,
-      "deg": 192,
-      "gust": 3.1
-    },
-    "clouds": {
-      "all": 44
-    },
-    "dt": 1781337544,
-    "sys": {
-      "type": 2,
-      "id": 2104024,
-      "country": "CA",
-      "sunrise": 1781350168,
-      "sunset": 1781418709
-    },
-    "timezone": -25200,
-    "id": 6180550,
-    "name": "Whitehorse",
-    "cod": 200
-  },
-  {
-    "coord": {
-      "lon": -135.1159,
-      "lat": 60.6836
-    },
-    "weather": [
-      {
         "id": 804,
         "main": "Clouds",
         "description": "overcast clouds",
@@ -448,6 +402,52 @@
       "country": "CA",
       "sunrise": 1782127700,
       "sunset": 1782196595
+    },
+    "timezone": -25200,
+    "id": 6180550,
+    "name": "Whitehorse",
+    "cod": 200
+  },
+  {
+    "coord": {
+      "lon": -135.1159,
+      "lat": 60.6836
+    },
+    "weather": [
+      {
+        "id": 804,
+        "main": "Clouds",
+        "description": "overcast clouds",
+        "icon": "04n"
+      }
+    ],
+    "base": "stations",
+    "main": {
+      "temp": 13.98,
+      "feels_like": 12.79,
+      "temp_min": 11.93,
+      "temp_max": 14.27,
+      "pressure": 1017,
+      "humidity": 52,
+      "sea_level": 1017,
+      "grnd_level": 928
+    },
+    "visibility": 10000,
+    "wind": {
+      "speed": 4.02,
+      "deg": 140,
+      "gust": 8.05
+    },
+    "clouds": {
+      "all": 100
+    },
+    "dt": 1782201589,
+    "sys": {
+      "type": 2,
+      "id": 47668,
+      "country": "CA",
+      "sunrise": 1782214122,
+      "sunset": 1782282998
     },
     "timezone": -25200,
     "id": 6180550,
