@@ -15,51 +15,6 @@
     "base": "stations",
     "main": {
       "temp": 13.16,
-      "feels_like": 12.28,
-      "temp_min": 13.16,
-      "temp_max": 13.44,
-      "pressure": 1018,
-      "humidity": 67,
-      "sea_level": 1018,
-      "grnd_level": 928
-    },
-    "visibility": 10000,
-    "wind": {
-      "speed": 1.34,
-      "deg": 200
-    },
-    "clouds": {
-      "all": 45
-    },
-    "dt": 1782029822,
-    "sys": {
-      "type": 2,
-      "id": 47668,
-      "country": "CA",
-      "sunrise": 1782041284,
-      "sunset": 1782110187
-    },
-    "timezone": -25200,
-    "id": 6180550,
-    "name": "Whitehorse",
-    "cod": 200
-  },
-  {
-    "coord": {
-      "lon": -135.1159,
-      "lat": 60.6836
-    },
-    "weather": [
-      {
-        "id": 802,
-        "main": "Clouds",
-        "description": "scattered clouds",
-        "icon": "03n"
-      }
-    ],
-    "base": "stations",
-    "main": {
-      "temp": 13.16,
       "feels_like": 11.94,
       "temp_min": 13.16,
       "temp_max": 13.99,
@@ -452,6 +407,52 @@
       "country": "CA",
       "sunrise": 1782819233,
       "sunset": 1782887650
+    },
+    "timezone": -25200,
+    "id": 6180550,
+    "name": "Whitehorse",
+    "cod": 200
+  },
+  {
+    "coord": {
+      "lon": -135.1159,
+      "lat": 60.6836
+    },
+    "weather": [
+      {
+        "id": 804,
+        "main": "Clouds",
+        "description": "overcast clouds",
+        "icon": "04n"
+      }
+    ],
+    "base": "stations",
+    "main": {
+      "temp": 10.11,
+      "feels_like": 8.38,
+      "temp_min": 6.38,
+      "temp_max": 10.11,
+      "pressure": 1013,
+      "humidity": 46,
+      "sea_level": 1013,
+      "grnd_level": 922
+    },
+    "visibility": 10000,
+    "wind": {
+      "speed": 2.65,
+      "deg": 179,
+      "gust": 4.31
+    },
+    "clouds": {
+      "all": 95
+    },
+    "dt": 1782893462,
+    "sys": {
+      "type": 2,
+      "id": 2104024,
+      "country": "CA",
+      "sunrise": 1782905699,
+      "sunset": 1782974006
     },
     "timezone": -25200,
     "id": 6180550,
