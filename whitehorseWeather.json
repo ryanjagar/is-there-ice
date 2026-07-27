@@ -14,51 +14,6 @@
     ],
     "base": "stations",
     "main": {
-      "temp": 12.05,
-      "feels_like": 10.54,
-      "temp_min": 12.05,
-      "temp_max": 12.33,
-      "pressure": 1014,
-      "humidity": 47,
-      "sea_level": 1014,
-      "grnd_level": 924
-    },
-    "visibility": 10000,
-    "wind": {
-      "speed": 3.58,
-      "deg": 240
-    },
-    "clouds": {
-      "all": 92
-    },
-    "dt": 1784278735,
-    "sys": {
-      "type": 2,
-      "id": 47668,
-      "country": "CA",
-      "sunrise": 1784289722,
-      "sunset": 1784355049
-    },
-    "timezone": -25200,
-    "id": 6180550,
-    "name": "Whitehorse",
-    "cod": 200
-  },
-  {
-    "coord": {
-      "lon": -135.1159,
-      "lat": 60.6836
-    },
-    "weather": [
-      {
-        "id": 804,
-        "main": "Clouds",
-        "description": "overcast clouds",
-        "icon": "04n"
-      }
-    ],
-    "base": "stations",
-    "main": {
       "temp": 12.49,
       "feels_like": 11.83,
       "temp_min": 12.49,
@@ -452,6 +407,52 @@
       "country": "CA",
       "sunrise": 1785068546,
       "sunset": 1785131475
+    },
+    "timezone": -25200,
+    "id": 6180550,
+    "name": "Whitehorse",
+    "cod": 200
+  },
+  {
+    "coord": {
+      "lon": -135.1159,
+      "lat": 60.6836
+    },
+    "weather": [
+      {
+        "id": 804,
+        "main": "Clouds",
+        "description": "overcast clouds",
+        "icon": "04n"
+      }
+    ],
+    "base": "stations",
+    "main": {
+      "temp": 9.54,
+      "feels_like": 9.54,
+      "temp_min": 8.99,
+      "temp_max": 9.83,
+      "pressure": 1011,
+      "humidity": 61,
+      "sea_level": 1011,
+      "grnd_level": 921
+    },
+    "visibility": 10000,
+    "wind": {
+      "speed": 0.87,
+      "deg": 213,
+      "gust": 0.81
+    },
+    "clouds": {
+      "all": 94
+    },
+    "dt": 1785148112,
+    "sys": {
+      "type": 2,
+      "id": 47668,
+      "country": "CA",
+      "sunrise": 1785155090,
+      "sunset": 1785217732
     },
     "timezone": -25200,
     "id": 6180550,
