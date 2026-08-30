@@ -6,52 +6,6 @@
     },
     "weather": [
       {
-        "id": 802,
-        "main": "Clouds",
-        "description": "scattered clouds",
-        "icon": "03n"
-      }
-    ],
-    "base": "stations",
-    "main": {
-      "temp": 11.01,
-      "feels_like": 10.59,
-      "temp_min": 11.01,
-      "temp_max": 11.01,
-      "pressure": 1022,
-      "humidity": 93,
-      "sea_level": 1022,
-      "grnd_level": 1021
-    },
-    "visibility": 10000,
-    "wind": {
-      "speed": 0.98,
-      "deg": 65,
-      "gust": 1.2
-    },
-    "clouds": {
-      "all": 27
-    },
-    "dt": 1787210845,
-    "sys": {
-      "type": 1,
-      "id": 7707,
-      "country": "US",
-      "sunrise": 1787146086,
-      "sunset": 1787200916
-    },
-    "timezone": -28800,
-    "id": 5846893,
-    "name": "Haines",
-    "cod": 200
-  },
-  {
-    "coord": {
-      "lon": -135.3153,
-      "lat": 59.4554
-    },
-    "weather": [
-      {
         "id": 500,
         "main": "Rain",
         "description": "light rain",
@@ -454,6 +408,54 @@
       "country": "US",
       "sunrise": 1787924943,
       "sunset": 1787976978
+    },
+    "timezone": -28800,
+    "id": 5846893,
+    "name": "Haines",
+    "cod": 200
+  },
+  {
+    "coord": {
+      "lon": -135.3153,
+      "lat": 59.4554
+    },
+    "weather": [
+      {
+        "id": 501,
+        "main": "Rain",
+        "description": "moderate rain",
+        "icon": "10n"
+      }
+    ],
+    "base": "stations",
+    "main": {
+      "temp": 10.97,
+      "feels_like": 10.73,
+      "temp_min": 10.97,
+      "temp_max": 12.01,
+      "pressure": 1008,
+      "humidity": 100,
+      "sea_level": 1008,
+      "grnd_level": 1007
+    },
+    "visibility": 231,
+    "wind": {
+      "speed": 1.54,
+      "deg": 20
+    },
+    "rain": {
+      "1h": 1.27
+    },
+    "clouds": {
+      "all": 100
+    },
+    "dt": 1788072723,
+    "sys": {
+      "type": 1,
+      "id": 7704,
+      "country": "US",
+      "sunrise": 1788011481,
+      "sunset": 1788063203
     },
     "timezone": -28800,
     "id": 5846893,
