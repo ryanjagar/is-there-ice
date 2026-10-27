@@ -50,6 +50,15 @@ header {
   font-style: italic;
 }
 
+.data-warnings {
+  list-style: none;
+  padding: 0;
+  margin: 10px auto 0;
+  text-align: center;
+  font-size: 14px;
+  color: #a15c00;
+}
+
 /* Footer styling */
 footer {
   text-align: center;

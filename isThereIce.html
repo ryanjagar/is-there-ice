@@ -27,6 +27,7 @@
     Daily Temps for The Previous 10 Days
   </header>
 
+
   <div id="app">
 
 
@@ -34,6 +35,13 @@
 
       <canvas id="myChart"></canvas>
     </div>
+
+    <ul
+      class="data-warnings"
+      v-if="warnings.length"
+    >
+      <li v-for="warning in warnings">{{ warning }}</li>
+    </ul>
 
   </div>
 
@@ -46,9 +54,38 @@
   </footer>
 
   <script>
-
     const { createApp, ref, reactive, onMounted, nextTick } = Vue
+    // stable, zero-padded, locale- and timezone-independent key; readings land
+    // around 07:00 UTC (local midnight), so local dates would jitter across days
+    const dayKey = (d) => {
+      const p = (n) => String(n).padStart(2, '0');
+      return `${d.getUTCFullYear()}-${p(d.getUTCMonth() + 1)}-${p(d.getUTCDate())}`;
+    };
 
+
+    // Ice Builds Temperature
+    let iceBuildsTemp = -7
+    // Ice Zone plugin - shows a shaded area below the temperature threshold
+    const iceZone = {
+      id: 'iceZone',
+      beforeDatasetsDraw(chart, args, opts) {
+        const { ctx, chartArea, scales: { y } } = chart;
+        const threshold = opts.threshold ?? -7;
+        const yPx = y.getPixelForValue(threshold);
+        if (yPx > chartArea.bottom) return;         // threshold off-scale
+        ctx.save();
+        ctx.fillStyle = opts.color ?? 'rgba(101,154,213,0.25)';
+        ctx.fillRect(
+          chartArea.left, yPx,
+          chartArea.right - chartArea.left,
+          chartArea.bottom - yPx
+        );
+        ctx.restore();
+      }
+    };
+
+
+    // WeatherData class to handle the weather data for each location
     class WeatherData {
       constructor(location) {
         this.location = location;
@@ -57,16 +94,19 @@
       }
       async generateChartData() {
         const response = await fetch(this.fileName);
-        const data = await response.json();
+        const data = response.ok ? await response.json() : [];
         this.chartData = data.map((item) => {
-          return { date: new Date(item.dt * 1000).toLocaleString().split(',')[0], temp: item.main.temp };
+          return { date: dayKey(new Date(item.dt * 1000)), time: item.dt * 1000, temp: item.main.temp };
         });
       }
-      temps() {
-        return this.chartData.map(item => item.temp);
+      newestReading() {
+        return Math.max(...this.chartData.map(item => item.time));
       }
-      dates() {
-        return this.chartData.map(item => item.date);
+      // one value per label, null where that day has no reading; if a day has
+      // several readings the latest one wins
+      tempsFor(labels) {
+        const byDay = new Map(this.chartData.map(item => [item.date, item.temp]));
+        return labels.map(day => byDay.get(day) ?? null);
       }
       place() {
         return this.location.name;
@@ -76,7 +116,7 @@
       }
     }
 
-    let iceBuildsTemp = -7
+
     const locations = [
       { name: 'Whitehorse', id: 6180550, fileName: 'whitehorseWeather.json', hexcolour: "#3373BA" },
       { name: "Toad River", id: 6170031, fileName: 'toadWeather.json', hexcolour: "#b7ba33" },
@@ -84,90 +124,105 @@
     ];
 
     const chartoptions = {
-      parsing: {
-        xAxisKey: 'date',
-        yAxisKey: 'temp'
-      },
       tension: .25,
       responsive: true,
-      spanGaps: true,
-      // scales: {
-
-      yAxes: [
-        {
-          beginAtZero: true,
+      spanGaps: false,
+      scales: {
+        x: {
           ticks: {
-            suggestedMin: -25,
+            minRotation: 45,
+            maxRotation: 45,
           },
         },
-      ],
-      // },
+        y: {
+          suggestedMin: -10,
+        },
+      },
+      plugins: {
+        iceZone: { threshold: iceBuildsTemp },
+      },
     };
 
 
-    // build an array of the last 10 days in ascending order starting with yesterday
-    // TODO: put some checks in place to ensure the data really does go back 10 days
-
     const days = 10;
-    const today = new Date();
-    const last10Days = Array(days).fill().map((_, i) => {
-      const d = new Date(today);
-      d.setDate(today.getDate() - days + i);
-      return d;
+    // readings land around 07:00 UTC daily; allow for late GitHub Actions runs
+    const staleAfterHours = 30;
+
+    // the `days` calendar days ending on `newest`, oldest first; the category
+    // scale needs every label up front, so missing days stay in as gaps
+    const dayWindow = (newest) => Array.from({ length: days }, (_, i) => {
+      const d = new Date(newest);
+      d.setUTCDate(d.getUTCDate() - (days - 1 - i));
+      return dayKey(d);
     });
 
-    let iceBuildsData = last10Days.map((item) => {
-      return { date: item.toLocaleString().split(',')[0], temp: iceBuildsTemp }
-    });
+    // days missing everywhere get one line; the rest are listed per location
+    const missingDayWarnings = (labels, datasets) => {
+      const missingFor = (dataset) => labels.filter((_, i) => dataset.data[i] === null);
+      const missingEverywhere = labels.filter((_, i) => datasets.every(ds => ds.data[i] === null));
 
+      const lines = [];
+      if (missingEverywhere.length) lines.push(`No readings for ${missingEverywhere.join(', ')}.`);
+
+      for (const dataset of datasets) {
+        const missing = missingFor(dataset).filter(day => !missingEverywhere.includes(day));
+        if (missing.length === days) {
+          lines.push(`${dataset.label}: no readings for the last ${days} days.`);
+        } else if (missing.length) {
+          lines.push(`${dataset.label}: no reading for ${missing.join(', ')}.`);
+        }
+      }
+      return lines;
+    };
 
     createApp({
       setup() {
-
-        const datasets = ref([]);
-
+        const warnings = ref([]);
         onMounted(async () => {
+          const sources = [];
           for (const location of locations) {
             let x = new WeatherData(location);
             await x.generateChartData();
-
-            datasets.value.push({
-              label: x.place(),
-              data: x.chartData,
-              backgroundColor: x.hexColour(),
-              borderColor: x.hexColour(),
-              borderWidth: 3
-              // borderColor: 'rgba(75, 192, 192, 1)',
-            });
+            sources.push(x);
           };
 
-          const iceBuilds = {
-            label: "Ice Builds",
-            fill: "start",
-            pointStyle: false,
-            borderColor: "rgba(101,154,213, 0.3)",
-            backgroundColor: "rgba(101,154,213, 0.3)",
-            // Create a line for where ice builds
-            // One data point for each datapoint in termperature list
-            data: iceBuildsData
+          const newest = Math.max(...sources.map(x => x.newestReading()));
+          if (!Number.isFinite(newest)) {
+            warnings.value = ['No temperature readings are available right now.'];
+            return;
           }
-          datasets.value.push(iceBuilds);
-          // nextTick(renderChart())
-          renderChart();
 
-        }
-        );
-        //
+          const labels = dayWindow(newest);
 
+          const hoursOld = (Date.now() - newest) / 36e5;
+          if (hoursOld > staleAfterHours) {
+            warnings.value.push(`The newest reading is from ${dayKey(new Date(newest))}; the daily update may have stopped.`);
+          }
 
-        const renderChart = () => {
+          const datasets = sources.map((x) => ({
+            label: x.place(),
+            data: x.tempsFor(labels),
+            backgroundColor: x.hexColour(),
+            borderColor: x.hexColour(),
+            borderWidth: 3
+            // borderColor: 'rgba(75, 192, 192, 1)',
+          }));
+
+          warnings.value.push(...missingDayWarnings(labels, datasets));
+
+          renderChart(labels, datasets);
+        });
+
+        const renderChart = (labels, datasets) => {
 
           const ctx = document.getElementById('myChart');
           new Chart(ctx, {
+            plugins: [iceZone],
             type: 'line',
 
             data: {
-              datasets: datasets.value
+              labels,
+              datasets
             },
             options: chartoptions
           });
@@ -175,7 +230,7 @@
 
         }
         return {
-
+          warnings
         }
       }
     }).mount('#app')
