@@ -6,52 +6,6 @@
     },
     "weather": [
       {
-        "id": 800,
-        "main": "Clear",
-        "description": "clear sky",
-        "icon": "01n"
-      }
-    ],
-    "base": "stations",
-    "main": {
-      "temp": 6.97,
-      "feels_like": 2.82,
-      "temp_min": 4.01,
-      "temp_max": 6.97,
-      "pressure": 993,
-      "humidity": 42,
-      "sea_level": 993,
-      "grnd_level": 992
-    },
-    "visibility": 10000,
-    "wind": {
-      "speed": 7.72,
-      "deg": 20,
-      "gust": 11.83
-    },
-    "clouds": {
-      "all": 0
-    },
-    "dt": 1794120535,
-    "sys": {
-      "type": 1,
-      "id": 7704,
-      "country": "US",
-      "sunrise": 1794069392,
-      "sunset": 1794099204
-    },
-    "timezone": -32400,
-    "id": 5846893,
-    "name": "Haines",
-    "cod": 200
-  },
-  {
-    "coord": {
-      "lon": -135.3153,
-      "lat": 59.4554
-    },
-    "weather": [
-      {
         "id": 500,
         "main": "Rain",
         "description": "light rain",
@@ -452,6 +406,55 @@
       "country": "US",
       "sunrise": 1794848331,
       "sunset": 1794875613
+    },
+    "timezone": -32400,
+    "id": 5846893,
+    "name": "Haines",
+    "cod": 200
+  },
+  {
+    "coord": {
+      "lon": -135.3153,
+      "lat": 59.4554
+    },
+    "weather": [
+      {
+        "id": 500,
+        "main": "Rain",
+        "description": "light rain",
+        "icon": "10n"
+      }
+    ],
+    "base": "stations",
+    "main": {
+      "temp": 7.97,
+      "feels_like": 3.7,
+      "temp_min": 7.97,
+      "temp_max": 8.01,
+      "pressure": 1010,
+      "humidity": 76,
+      "sea_level": 1010,
+      "grnd_level": 1009
+    },
+    "visibility": 10000,
+    "wind": {
+      "speed": 9.26,
+      "deg": 200,
+      "gust": 14.92
+    },
+    "rain": {
+      "1h": 0.69
+    },
+    "clouds": {
+      "all": 100
+    },
+    "dt": 1794984552,
+    "sys": {
+      "type": 1,
+      "id": 7704,
+      "country": "US",
+      "sunrise": 1794934876,
+      "sunset": 1794961892
     },
     "timezone": -32400,
     "id": 5846893,
