@@ -14,55 +14,6 @@
     ],
     "base": "stations",
     "main": {
-      "temp": 5.97,
-      "feels_like": 1.52,
-      "temp_min": 5.01,
-      "temp_max": 5.97,
-      "pressure": 1006,
-      "humidity": 75,
-      "sea_level": 1006,
-      "grnd_level": 1005
-    },
-    "visibility": 10000,
-    "wind": {
-      "speed": 7.72,
-      "deg": 200,
-      "gust": 13.38
-    },
-    "rain": {
-      "1h": 0.19
-    },
-    "clouds": {
-      "all": 75
-    },
-    "dt": 1794207199,
-    "sys": {
-      "type": 1,
-      "id": 7704,
-      "country": "US",
-      "sunrise": 1794155943,
-      "sunset": 1794185463
-    },
-    "timezone": -32400,
-    "id": 5846893,
-    "name": "Haines",
-    "cod": 200
-  },
-  {
-    "coord": {
-      "lon": -135.3153,
-      "lat": 59.4554
-    },
-    "weather": [
-      {
-        "id": 500,
-        "main": "Rain",
-        "description": "light rain",
-        "icon": "10n"
-      }
-    ],
-    "base": "stations",
-    "main": {
       "temp": 3.97,
       "feels_like": 3.97,
       "temp_min": 3.97,
@@ -455,6 +406,54 @@
       "country": "US",
       "sunrise": 1794934876,
       "sunset": 1794961892
+    },
+    "timezone": -32400,
+    "id": 5846893,
+    "name": "Haines",
+    "cod": 200
+  },
+  {
+    "coord": {
+      "lon": -135.3153,
+      "lat": 59.4554
+    },
+    "weather": [
+      {
+        "id": 500,
+        "main": "Rain",
+        "description": "light rain",
+        "icon": "10n"
+      }
+    ],
+    "base": "stations",
+    "main": {
+      "temp": 2.97,
+      "feels_like": 0.43,
+      "temp_min": 2.97,
+      "temp_max": 3.01,
+      "pressure": 1017,
+      "humidity": 93,
+      "sea_level": 1017,
+      "grnd_level": 1016
+    },
+    "visibility": 10000,
+    "wind": {
+      "speed": 2.57,
+      "deg": 30
+    },
+    "rain": {
+      "1h": 0.13
+    },
+    "clouds": {
+      "all": 100
+    },
+    "dt": 1795070952,
+    "sys": {
+      "type": 1,
+      "id": 7704,
+      "country": "US",
+      "sunrise": 1795021420,
+      "sunset": 1795048174
     },
     "timezone": -32400,
     "id": 5846893,
